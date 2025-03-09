@@ -1,0 +1,202 @@
+﻿@model List<App.Domain.Core.DTO.Proposals.ProposalDto>
+@using App.Endpoints.MVC.Extensions
+@using App.Domain.Core.Enums
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "نمایش پیشنهادات";
+}
+
+<h2 class="section-title">لیست پیشنهادات</h2>
+<div class="proposals-card">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success text-center mb-4" role="alert">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center mb-4" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="no-data">پیشنهادی ثبت نشده است.</p>
+    }
+    else
+    {
+        <table class="proposals-table table table-striped">
+            <thead>
+                <tr>
+                    <th>شماره پیشنهاد</th>
+                    <th>نام سرویس</th>
+                    <th>تاریخ سفارش</th>
+                    <th>کارشناس</th>
+                    <th>مبلغ</th>
+                    <th>وضعیت پرداخت</th>
+                    <th>وضعیت پیشنهاد</th>
+                    <th>تاریخ اجرا</th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var proposal in Model)
+                {
+                    <tr>
+                        <td>@proposal.Id</td>
+                        <td>@proposal.SubHomeServiceName</td>
+                        <td>@(proposal.OrderDate == DateTime.MinValue ? "-" : proposal.OrderDate.ToPersianDate())</td>
+                        <td>@proposal.ExpertName</td>
+                        <td>@proposal.Price.ToString("N0") تومان</td>
+                        <td>@(Enum.TryParse<PaymentStatus>(proposal.PaymentStatus, out var paymentStatus) ? paymentStatus.GetDisplayName() : "در انتظار")</td>
+                        <td>@proposal.Status.GetDisplayName()</td>
+                        <td>@(proposal.ExecutionDate == DateTime.MinValue ? "-" : proposal.ExecutionDate.ToPersianDate())</td>
+                        <td>
+                            @if (proposal.Status == ProposalStatus.Pending)
+                            {
+                                <div class="button-group">
+                                    <a href="@Url.Action("AcceptProposal", "Customer", new { id = proposal.Id })" class="btn btn-success btn-sm">انتخاب</a>
+                                    <a href="#" class="btn btn-danger btn-sm reject-proposal" data-id="@proposal.Id">رد</a>
+                                </div>
+                            }
+                            else if (proposal.Status == ProposalStatus.Accepted)
+                            {
+                                @if (proposal.OrderId > 0)
+                                {
+                                    <a href="@Url.Action("OrderDetails", "Customer", new { orderId = proposal.OrderId })" class="btn btn-info btn-sm mx-1">جزئیات سفارش</a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("SelectProposal", "Customer", new { id = proposal.Id })" class="btn btn-primary btn-sm mx-1">انتخاب</a>
+                                }
+                            }
+                            else
+                            {
+                                <span class="text-muted">عملیات غیرفعال</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <a href="@Url.Action("Dashboard", "Customer")" class="btn-back">بازگشت به داشبورد</a>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $('.reject-proposal').click(function (e) {
+                e.preventDefault();
+                var proposalId = $(this).data('id');
+                if (confirm("آیا مطمئن هستید که می‌خواهید این پیشنهاد را رد کنید؟")) {
+                    window.location.href = '@Url.Action("RejectProposal", "Customer")?id=' + proposalId;
+                }
+            });
+        });
+    </script>
+}
+
+<style>
+    .section-title {
+        color: #1e3a8a;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .proposals-card {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        padding: 25px;
+        max-width: 900px;
+        margin: 20px auto;
+    }
+
+    .no-data {
+        text-align: center;
+        color: #64748b;
+        font-size: 1.1rem;
+    }
+
+    .proposals-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .proposals-table th, .proposals-table td {
+        padding: 12px;
+        text-align: right;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .proposals-table th {
+        background: #1e3a8a;
+        color: white;
+        font-weight: 600;
+    }
+
+    .proposals-table td {
+        color: #333;
+    }
+
+    .btn-back {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 15px;
+        background: #4c51bf;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-back:hover {
+        background: #434190;
+        transform: translateY(-2px);
+    }
+
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+
+    .mx-1 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text-muted {
+        color: #6c757d;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border-color: #c3e6cb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+        border-color: #f5c6cb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 5px; /* فاصله بین دکمه‌ها */
+    }
+</style>

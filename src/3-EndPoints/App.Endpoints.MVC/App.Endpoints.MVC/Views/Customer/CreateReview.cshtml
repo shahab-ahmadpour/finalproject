@@ -1,0 +1,126 @@
+﻿@model App.Domain.Core.DTO.Reviews.CreateReviewDto
+
+@{
+    ViewData["Title"] = "ثبت نظر";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%;">
+        <h3 class="card-title text-center mb-4 text-primary">ثبت نظر برای سفارش</h3>
+
+        <form asp-action="CreateReview" method="post" class="needs-validation" novalidate>
+            <input type="hidden" asp-for="OrderId" />
+            <input type="hidden" asp-for="CustomerId" />
+            <input type="hidden" asp-for="ExpertId" />
+
+            <div class="mb-3">
+                <label asp-for="Rating" class="form-label fw-bold">امتیاز (1 تا 5)</label>
+                <select asp-for="Rating" class="form-select" required>
+                    <option value="1">1 - خیلی بد</option>
+                    <option value="2">2 - بد</option>
+                    <option value="3">3 - متوسط</option>
+                    <option value="4">4 - خوب</option>
+                    <option value="5" selected>5 - عالی</option>
+                </select>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+                <div class="invalid-feedback">لطفاً یک امتیاز انتخاب کنید.</div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Comment" class="form-label fw-bold">نظر شما</label>
+                <textarea asp-for="Comment" class="form-control" rows="5" placeholder="نظر خود را اینجا بنویسید..."></textarea>
+                <span asp-validation-for="Comment" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary btn-lg">ثبت نظر</button>
+                <a asp-action="Orders" class="btn btn-secondary btn-lg">بازگشت</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // اعتبارسنجی فرم با بوت‌استرپ
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}
+
+<style>
+    .min-vh-100 {
+        min-height: 100vh;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        background: #fff;
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1e3a8a;
+    }
+
+    .form-label {
+        color: #333;
+    }
+
+    .btn-primary {
+        background-color: #1e3a8a;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #16307a;
+        }
+
+    .btn-secondary {
+        background-color: #6b7280;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-secondary:hover {
+            background-color: #4b5563;
+        }
+
+    .form-select, .form-control {
+        border-radius: 8px;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    }
+
+        .form-select:focus, .form-control:focus {
+            border-color: #1e3a8a;
+            box-shadow: 0 0 5px rgba(30, 58, 138, 0.5);
+        }
+</style>

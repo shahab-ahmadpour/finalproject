@@ -1,0 +1,563 @@
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.runtime.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.endpoints.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.exe
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.deps.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.runtimeconfig.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Humanizer.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\PersianDateTime.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.AssemblyReference.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cs
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.sourcelink.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\bundle\App.Endpoints.MVC.styles.css
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\projectbundle\App.Endpoints.MVC.bundle.scp.css
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.build.App.Endpoints.MVC.props
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.App.Endpoints.MVC.props
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.App.Endpoints.MVC.props
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endp.91BCEBCD.Up2Date
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\refint\App.Endpoints.MVC.dll
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.pdb
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.genruntimeconfig.cache
+C:\Users\shaha\source\repos\HomeServiceFinalProject\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\ref\App.Endpoints.MVC.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.Development.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.endpoints.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.runtime.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.exe
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.deps.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.runtimeconfig.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Core.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Identity.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Humanizer.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\PersianDateTime.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.ClientModel.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.CodeDom.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Memory.Data.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Json.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.AssemblyReference.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfoInputs.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfo.cs
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.CoreCompileInputs.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cs
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cs
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.sourcelink.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\bundle\App.Endpoints.MVC.styles.css
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\projectbundle\App.Endpoints.MVC.bundle.scp.css
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.build.App.Endpoints.MVC.props
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.App.Endpoints.MVC.props
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.App.Endpoints.MVC.props
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.pack.json
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endp.91BCEBCD.Up2Date
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\refint\App.Endpoints.MVC.dll
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.pdb
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.genruntimeconfig.cache
+D:\HomeService\Latese Backup\HomeService\HomeService\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\ref\App.Endpoints.MVC.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.Development.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\appsettings.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.endpoints.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.staticwebassets.runtime.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.exe
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.deps.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.runtimeconfig.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Endpoints.MVC.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Core.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Azure.Identity.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Humanizer.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\PersianDateTime.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.ClientModel.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.CodeDom.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Memory.Data.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Text.Json.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Domain.Core.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.AppServices.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\HomeService.Domain.Services.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.AssemblyReference.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfoInputs.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.AssemblyInfo.cs
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.csproj.CoreCompileInputs.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cs
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.RazorAssemblyInfo.cs
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\bundle\App.Endpoints.MVC.styles.css
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\scopedcss\projectbundle\App.Endpoints.MVC.bundle.scp.css
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.App.Endpoints.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.build.App.Endpoints.MVC.props
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.App.Endpoints.MVC.props
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.App.Endpoints.MVC.props
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.pack.json
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endp.91BCEBCD.Up2Date
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\refint\App.Endpoints.MVC.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.pdb
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.genruntimeconfig.cache
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\ref\App.Endpoints.MVC.dll

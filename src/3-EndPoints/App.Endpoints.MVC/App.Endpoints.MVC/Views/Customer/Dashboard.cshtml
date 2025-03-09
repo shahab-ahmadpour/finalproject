@@ -1,0 +1,135 @@
+﻿@model App.Domain.Core.DTO.Users.Customers.CustomerDto
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    ViewData["Title"] = "داشبورد مشتری";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success text-center mb-4" role="alert">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-body p-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-center">
+                            <div class="avatar-container mb-3 mb-md-0">
+                                <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default-avatar.png" : Model.ProfilePicture)"
+                                     class="rounded-circle img-fluid" alt="تصویر پروفایل"
+                                     style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #1e3a8a;">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="mb-1">@Model.FirstName @Model.LastName</h3>
+                            <p class="text-muted mb-2">@Model.Email</p>
+                            <p><i class="bi bi-geo-alt-fill text-primary"></i> @(string.IsNullOrEmpty(Model.City) ? "شهر ثبت نشده" : $"{Model.City}، {Model.State}")</p>
+                            <div class="d-flex align-items-center">
+                                <a href="@Url.Action("EditProfile")" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil-square"></i> ویرایش پروفایل
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="balance-container p-3 rounded" style="background-color: #e8f5e9;">
+                                <p class="mb-1">موجودی حساب</p>
+                                <h4 class="text-success mb-0">@Model.AccountBalance.ToString("N0") ریال</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                            <h4>ثبت سفارش جدید</h4>
+                            <p class="text-muted">سفارش جدیدی ثبت کنید و از خدمات متخصصین ما بهره‌مند شوید.</p>
+                            <a href="@Url.Action("ServiceHierarchy")" class="btn btn-primary mt-2">
+                                ثبت سفارش <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-card-list"></i>
+                            </div>
+                            <h4>سفارش‌های من</h4>
+                            <p class="text-muted">فهرست درخواست‌ها، پیشنهادات و سفارش‌های خود را مشاهده و مدیریت کنید.</p>
+                            <a href="@Url.Action("MyOrders")" class="btn btn-primary mt-2">
+                                مشاهده سفارش‌ها <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h4>نظرات من</h4>
+                            <p class="text-muted">نظرات و امتیازات ثبت شده توسط شما را مشاهده کنید.</p>
+                            <a href="@Url.Action("MyReviews")" class="btn btn-primary mt-2">
+                                مشاهده نظرات <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .dashboard-card {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+
+            .dashboard-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+            }
+
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            background-color: #e5efff;
+            color: #1e3a8a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 1.8rem;
+        }
+
+        .btn-primary {
+            background-color: #1e3a8a;
+            border-color: #1e3a8a;
+        }
+
+            .btn-primary:hover {
+                background-color: #172b6e;
+                border-color: #172b6e;
+            }
+    </style>
+}

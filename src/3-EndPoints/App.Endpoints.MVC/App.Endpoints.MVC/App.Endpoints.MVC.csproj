@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="PersianDateTime" Version="1.1.5082.36395" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1-Domain\Core\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\..\1-Domain\Services\HomeService.Domain.AppServices\HomeService.Domain.AppServices.csproj" />
+    <ProjectReference Include="..\..\..\1-Domain\Services\HomeService.Domain.Services\HomeService.Domain.Services.csproj" />
+    <ProjectReference Include="..\..\..\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\App.Infrastructure.DbAccess.Repository.Ef.csproj" />
+    <ProjectReference Include="..\..\..\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\App.Infrastructure.Db.SqlServer.Ef.csproj" />
+  </ItemGroup>
+
+</Project>

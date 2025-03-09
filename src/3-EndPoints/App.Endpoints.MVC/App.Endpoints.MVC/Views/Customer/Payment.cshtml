@@ -1,0 +1,74 @@
+﻿@model App.Domain.Core.DTO.Transactions.PaymentViewModel
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "پرداخت سفارش";
+}
+
+<h2 class="section-title">پرداخت سفارش</h2>
+<div class="proposals-card">
+    <p>موجودی فعلی شما: <strong>@Model.CurrentBalance.ToString("N0") تومان</strong></p>
+    <p>مبلغ قابل پرداخت: <strong>@Model.AmountToPay.ToString("N0") تومان</strong></p>
+    <p>کارشناس: @Model.ExpertName</p>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center mb-4" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <form asp-action="ProcessPayment" method="post">
+        <input type="hidden" name="orderId" value="@Model.OrderId" />
+        <button type="submit">پرداخت</button>
+    </form>
+    <a href="@Url.Action("Orders", "Customer")" class="btn-back">بازگشت</a>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+}
+
+<style>
+    .section-title {
+        color: #1e3a8a;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .proposals-card {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        padding: 25px;
+        max-width: 400px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .btn-back {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 15px;
+        background: #4c51bf;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-back:hover {
+            background: #434190;
+            transform: translateY(-2px);
+        }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+        border-color: #f5c6cb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>

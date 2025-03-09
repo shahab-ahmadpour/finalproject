@@ -1,0 +1,97 @@
+﻿@model App.Domain.Core.DTO.Requests.RequestDto
+@using App.Endpoints.MVC.Extensions
+@using App.Domain.Core.Enums
+@{
+    ViewData["Title"] = "جزئیات درخواست";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+
+    // تبدیل مسیر تصاویر به لیست
+    List<string> imagePaths = new List<string>();
+    if (!string.IsNullOrEmpty(Model.EnvironmentImagePath))
+    {
+        imagePaths = Model.EnvironmentImagePath.Split(';', StringSplitOptions.RemoveEmptyEntries).ToList();
+    }
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white py-3">
+                    <h4 class="mb-0 text-center">جزئیات درخواست</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-primary mb-3">اطلاعات سرویس</h5>
+                            <p><strong>نوع سرویس:</strong> @Model.SubHomeServiceName</p>
+                            <p><strong>وضعیت:</strong> <span class="badge @GetStatusBadgeClass(Model.Status)">@Model.Status.GetDisplayName()</span></p>
+                            <p><strong>تاریخ ثبت:</strong> @Model.CreatedAt.ToPersianDate()</p>
+                            <p><strong>تاریخ اجرا:</strong> @Model.ExecutionDate.ToPersianDate()</p>
+                            <p><strong>ساعت اجرا:</strong> @Model.ExecutionDate.ToTimeString()</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-primary mb-3">توضیحات</h5>
+                            <div class="p-3 bg-light rounded">
+                                @(string.IsNullOrEmpty(Model.Description) ? "بدون توضیحات" : Model.Description)
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (imagePaths.Any())
+                    {
+                        <h5 class="text-primary mb-3">تصاویر</h5>
+                        <div class="row mb-4">
+                            @foreach (var path in imagePaths)
+                            {
+                                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                                    <a href="@path" target="_blank" class="image-popup">
+                                        <img src="@path" class="img-thumbnail w-100" style="height: 150px; object-fit: cover;" alt="تصویر محیط" />
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    }
+
+                    <div class="d-flex justify-content-center mt-3">
+                        <a href="@Url.Action("Requests")" class="btn btn-secondary px-4">
+                            <i class="bi bi-arrow-right me-1"></i> بازگشت به لیست درخواست‌ها
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.image-popup').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
+}
+
+@functions {
+    public string GetStatusBadgeClass(App.Domain.Core.Enums.RequestStatus status)
+    {
+        return status switch
+        {
+            App.Domain.Core.Enums.RequestStatus.Pending => "bg-warning",
+            App.Domain.Core.Enums.RequestStatus.InProgress => "bg-primary",
+            App.Domain.Core.Enums.RequestStatus.Completed => "bg-success",
+            App.Domain.Core.Enums.RequestStatus.Cancelled => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+}

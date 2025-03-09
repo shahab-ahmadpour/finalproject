@@ -1,0 +1,188 @@
+﻿@model App.Endpoints.MVC.Models.Account.RegisterViewModel
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت‌نام - خدمات منزل</title>
+    <style>
+        body {
+            font-family: IRANYekan, IRANYekan, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff, #f1f5f9);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .register-card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 450px; /* کمی بزرگ‌تر از فرم ورود */
+            position: relative;
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+
+            .register-card::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 200%;
+                height: 200%;
+                background: linear-gradient(45deg, rgba(30, 58, 138, 0.05), rgba(59, 130, 246, 0.05));
+                transform: rotate(30deg);
+                z-index: -1;
+            }
+
+        h3 {
+            color: #1e3a8a;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                font-weight: 600;
+                color: #1e3a8a;
+                margin-bottom: 8px;
+                display: block;
+                font-size: 0.95rem;
+            }
+
+        .form-control {
+            padding: 12px 15px;
+            border-radius: 10px;
+            border: 2px solid #e5e7eb;
+            font-size: 1rem;
+            width: 100%;
+            background: #f9fafb;
+            transition: all 0.3s ease;
+        }
+
+            .form-control:focus {
+                border-color: #3b82f6;
+                background: #fff;
+                box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+                outline: none;
+            }
+
+        select.form-control {
+            appearance: none; /* حذف استایل پیش‌فرض مرورگر */
+            background: #f9fafb url('data:image/svg+xml;utf8,<svg fill="%231e3a8a" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat;
+            background-position: left 10px center; /* فلش سمت چپ */
+            padding-left: 35px; /* فضای کافی برای فلش */
+        }
+
+        .btn-success {
+            background: linear-gradient(45deg, #16a34a, #22c55e);
+            border: none;
+            padding: 14px;
+            font-weight: 600;
+            border-radius: 10px;
+            color: white;
+            width: 100%;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .btn-success:hover {
+                background: linear-gradient(45deg, #15803d, #16a34a);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(22, 163, 74, 0.4);
+            }
+
+        .text-danger {
+            color: #e63946;
+            font-size: 0.85rem;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+            .footer-text a {
+                color: #3b82f6;
+                text-decoration: none;
+                font-weight: 600;
+                transition: color 0.3s ease;
+            }
+
+                .footer-text a:hover {
+                    color: #1e3a8a;
+                }
+
+        /* انیمیشن ورود */
+        @@keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="register-card">
+        <h3>ثبت‌نام در سایت</h3>
+
+        <form asp-controller="Account" asp-action="Register" method="post">
+            <div class="form-group">
+                <label asp-for="Email">ایمیل</label>
+                <input asp-for="Email" class="form-control" placeholder="ایمیل خود را وارد کنید" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">رمز عبور</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="رمز عبور" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">تأیید رمز عبور</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="تأیید رمز عبور" required />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Role">نقش</label>
+                <select asp-for="Role" class="form-control">
+                    <option value="Customer">مشتری</option>
+                    <option value="Expert">کارشناس</option>
+                </select>
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success">ثبت‌نام</button>
+        </form>
+
+        <div class="footer-text">
+            <small>قبلاً ثبت‌نام کرده‌اید؟ <a asp-controller="Account" asp-action="Login">وارد شوید</a></small>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿@model List<App.Domain.Core.DTO.Proposals.ProposalDto>
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-header" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); padding: 25px 0; border-bottom: 4px solid #00c4cc;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 text-right">
+                <h1 class="m-0 text-white" style="font-weight: 700; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                    <i class="fas fa-handshake mr-2"></i> پیشنهادهای مرتبط با سفارش
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content" style="background: #f4f6f9; padding: 40px 0;">
+    <div class="container-fluid">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #28a745; background: linear-gradient(to right, #d4edda, #c3e6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-success"><i class="fas fa-check-circle mr-2"></i> موفقیت!</strong> @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #dc3545; background: linear-gradient(to right, #f8d7da, #f5c6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-danger"><i class="fas fa-exclamation-circle mr-2"></i> خطا!</strong> @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card border-0 shadow-lg" style="border-radius: 25px; overflow: hidden; background: #fff; transition: all 0.4s ease;">
+                    <div class="card-header bg-gradient-dark p-4 text-white" style="border-bottom: 2px solid #00c4cc;">
+                        <h4 class="mb-0" style="font-weight: 700; letter-spacing: 1px;">
+                            <i class="fas fa-list mr-2"></i> لیست پیشنهادها
+                        </h4>
+                    </div>
+                    <div class="card-body p-5">
+                        @if (Model != null && Model.Any())
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered" style="border-radius: 15px; overflow: hidden;">
+                                    <thead class="bg-gradient-dark text-white">
+                                        <tr>
+                                            <th style="border-radius: 15px 0 0 0;">#</th>
+                                            <th>کارشناس</th>
+                                            <th>توضیحات درخواست</th>
+                                            <th>قیمت</th>
+                                            <th>تاریخ اجرا</th>
+                                            <th style="border-radius: 0 15px 0 0;">وضعیت</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var proposal in Model)
+                                        {
+                                            <tr style="transition: all 0.3s ease;" onmouseover="this.style.background='#f8f9fa';" onmouseout="this.style.background='';">
+                                                <td>@proposal.Id</td>
+                                                <td>@proposal.ExpertName</td>
+                                                <td>@proposal.RequestDescription</td>
+                                                <td>@proposal.Price.ToString("N0") تومان</td>
+                                                <td>@proposal.ExecutionDate.ToPersianDate()</td>
+                                                <td>
+                                                    @switch (proposal.Status)
+                                                    {
+                                                        case ProposalStatus.Pending:
+                                                            <span class="badge bg-warning text-dark shadow-sm">در انتظار</span>
+                                                            break;
+                                                        case ProposalStatus.Accepted:
+                                                            <span class="badge bg-success shadow-sm">پذیرفته‌شده</span>
+                                                            break;
+                                                        case ProposalStatus.Rejected:
+                                                            <span class="badge bg-danger shadow-sm">ردشده</span>
+                                                            break;
+                                                        default:
+                                                            <span class="badge bg-secondary shadow-sm">@proposal.Status</span>
+                                                            break;
+                                                    }
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="text-center py-5">
+                                <h5 class="text-muted">هیچ پیشنهادی یافت نشد!</h5>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card { transition: all 0.4s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.25); }
+    .btn { transition: all 0.3s ease; }
+    .btn:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+    .table th, .table td { padding: 15px; vertical-align: middle; }
+    .table thead th { background: linear-gradient(45deg, #2c3e50, #34495e); }
+    .badge { padding: 6px 12px; font-size: 0.9rem; }
+</style>

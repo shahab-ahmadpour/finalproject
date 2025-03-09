@@ -1,0 +1,117 @@
+﻿@model List<App.Domain.Core.DTO.SubHomeServices.SubHomeServiceListItemDto>
+@using App.Endpoints.MVC.Extensions
+@{
+    ViewData["Title"] = "لیست زیر سرویس‌ها";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    var homeServiceName = ViewBag.HomeServiceName as string;
+}
+
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">@(string.IsNullOrEmpty(homeServiceName) ? "زیر سرویس‌های قابل ارائه" : $"زیر سرویس‌های {homeServiceName}")</h2>
+        <p class="text-muted">سرویس مورد نظر خود را انتخاب کنید و سفارش دهید</p>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            <i class="bi bi-info-circle me-2"></i>
+            در حال حاضر زیر سرویسی برای نمایش وجود ندارد.
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                @foreach (var subService in Model)
+                {
+                    <div class="card mb-4 service-card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="@(string.IsNullOrEmpty(subService.ImagePath) ? "/images/default-service.jpg" : subService.ImagePath)"
+                                     class="img-fluid rounded-start service-image" alt="@subService.Name">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body h-100 d-flex flex-column">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h3 class="card-title fw-bold text-primary">@subService.Name</h3>
+                                        <span class="badge bg-secondary rounded-pill">
+                                            <i class="bi bi-eye"></i> @subService.Views بازدید
+                                        </span>
+                                    </div>
+                                    <p class="card-text text-muted small mb-2">
+                                        <i class="bi bi-tag"></i> زیرمجموعه: @subService.HomeServiceName
+                                    </p>
+                                    <p class="card-text mb-3">@(string.IsNullOrEmpty(subService.Description) ? "بدون توضیحات" : subService.Description)</p>
+
+                                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                                        <div class="price-container">
+                                            <span class="text-muted">قیمت پایه سرویس:</span>
+                                            <span class="fw-bold text-success">@subService.BasePrice.ToString("N0") ریال</span>
+                                        </div>
+                                        <a href="@Url.Action("Create", "Customer", new { subHomeServiceId = subService.Id })"
+                                           class="btn btn-success">
+                                            <i class="bi bi-plus-circle me-2"></i>سفارش سرویس جدید
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+
+    <div class="text-center mt-4">
+        <a href="@Url.Action("ServiceHierarchy", "Customer")" class="btn btn-outline-primary">
+            <i class="bi bi-arrow-right"></i>
+            بازگشت به لیست سرویس‌ها
+        </a>
+    </div>
+</div>
+
+<style>
+    .service-card {
+        transition: transform 0.3s, box-shadow 0.3s;
+        overflow: hidden;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .service-image {
+        height: 100%;
+        object-fit: cover;
+        min-height: 200px;
+    }
+
+    .price-container {
+        background-color: #f8f9fa;
+        padding: 8px 15px;
+        border-radius: 30px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+        transition: background-color 0.3s;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+
+    .text-primary {
+        color: #1e3a8a !important;
+    }
+
+    .badge {
+        padding: 6px 10px;
+    }
+</style>

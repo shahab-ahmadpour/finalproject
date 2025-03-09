@@ -1,0 +1,113 @@
+﻿@model List<App.Domain.Core.DTO.Proposals.ProposalDto>
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead class="bg-light">
+            <tr>
+                <th>شماره</th>
+                <th>نوع سرویس</th>
+                <th>مبلغ</th>
+                <th>تاریخ اجرا</th>
+                <th>تاریخ ثبت</th>
+                <th>وضعیت</th>
+                <th>مشاهده</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var proposal in Model.OrderByDescending(p => p.CreatedAt))
+            {
+                var statusClass = proposal.Status switch
+                {
+                    ProposalStatus.Pending => "badge-pending",
+                    ProposalStatus.Accepted => "badge-accepted",
+                    ProposalStatus.Rejected => "badge-rejected",
+                    _ => "bg-secondary"
+                };
+
+                <tr>
+                    <td>@proposal.Id</td>
+                    <td>@proposal.SubHomeServiceName</td>
+                    <td>@proposal.Price.ToString("N0") ریال</td>
+                    <td>@proposal.ExecutionDate.ToPersianDate()</td>
+                    <td>@proposal.CreatedAt.ToPersianDate()</td>
+                    <td>
+                        <span class="badge @statusClass">
+                            @proposal.Status.GetDisplayName()
+                        </span>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-outline-primary"
+                           data-bs-toggle="modal" data-bs-target="#proposalModal-@proposal.Id">
+                            <i class="bi bi-eye"></i>
+                        </a>
+
+                        <!-- مودال جزئیات پیشنهاد -->
+                        <div class="modal fade" id="proposalModal-@proposal.Id" tabindex="-1"
+                             aria-labelledby="proposalModalLabel-@proposal.Id" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary text-white">
+                                        <h5 class="modal-title" id="proposalModalLabel-@proposal.Id">
+                                            جزئیات پیشنهاد #@proposal.Id
+                                        </h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <p><strong>نوع سرویس:</strong> @proposal.SubHomeServiceName</p>
+                                                <p><strong>مبلغ پیشنهادی:</strong> @proposal.Price.ToString("N0") ریال</p>
+                                                <p><strong>تاریخ اجرا:</strong> @proposal.ExecutionDate.ToPersianDate()</p>
+                                                <p><strong>تاریخ ثبت:</strong> @proposal.CreatedAt.ToPersianDate()</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><strong>مهارت:</strong> @proposal.SkillName</p>
+                                                <p>
+                                                    <strong>وضعیت:</strong>
+                                                    <span class="badge @statusClass">
+                                                        @proposal.Status.GetDisplayName()
+                                                    </span>
+                                                </p>
+                                                @if (proposal.Status == ProposalStatus.Accepted && proposal.OrderId > 0)
+                                                {
+                                                    <p><strong>شماره سفارش:</strong> @proposal.OrderId</p>
+                                                }
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h6 class="border-bottom pb-2">توضیحات درخواست مشتری:</h6>
+                                            <div class="p-2 bg-light rounded">
+                                                @(string.IsNullOrEmpty(proposal.RequestDescription) ? "بدون توضیحات" : proposal.RequestDescription)
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h6 class="border-bottom pb-2">توضیحات پیشنهاد شما:</h6>
+                                            <div class="p-2 bg-light rounded">
+                                                @(string.IsNullOrEmpty(proposal.Description) ? "بدون توضیحات" : proposal.Description)
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+
+                                        @if (proposal.Status == ProposalStatus.Accepted && proposal.OrderId > 0)
+                                        {
+                                            <a href="@Url.Action("OrderDetails", "Expert", new { orderId = proposal.OrderId })"
+                                               class="btn btn-primary">
+                                                <i class="bi bi-eye me-1"></i> مشاهده سفارش
+                                            </a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

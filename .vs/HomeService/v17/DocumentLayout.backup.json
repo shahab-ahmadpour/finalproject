@@ -1,0 +1,1909 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyFinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\expertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\expertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\locationappservices\\locationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\locationappservices\\locationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\iappservice\\ilocationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\iappservice\\ilocationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\locationservices\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\locationservices\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\locations\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\locations\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\irepository\\ilocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\irepository\\ilocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\iservice\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\interfaces\\iservice\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\locations\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\locations\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\subhomeservices\\subhomeservicelistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\subhomeservices\\subhomeservicelistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\subhomeserservices\\subhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\subhomeserservices\\subhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\expertskills\\editexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\expertskills\\editexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\customerservices\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\customerservices\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\entities\\proposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\entities\\proposal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\entities\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\entities\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\orders\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\orders\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\orders\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\orders\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\skillappservices\\skillappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\skillappservices\\skillappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\skills\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\skills\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iappservices\\iskillappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iappservices\\iskillappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\skillservices\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\skillservices\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iservice\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iservice\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\skills\\skillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\skills\\skillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\isubhomeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\isubhomeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\reviewappservices\\reviewappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\reviewappservices\\reviewappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\ireviewappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\ireviewappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\reviewservices\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\reviewservices\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\requestappservices\\requestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\requestappservices\\requestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\expertservices\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\expertservices\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\irepository\\iexpertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\irepository\\iexpertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\iexpertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\iexpertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\proposalservices\\proposalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\proposalservices\\proposalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\iproposalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\iproposalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\proposals\\proposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\proposals\\proposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\iproposalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\iproposalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iexpertskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iexpertskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\enums\\proposalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\enums\\proposalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\homeservice.domain.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\homeservice.domain.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\transactionappservices\\transactionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\transactionappservices\\transactionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\transactionservices\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\transactionservices\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\createproposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\createproposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\availablerequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\availablerequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\_proposalslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\_proposalslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\proposals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\proposals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\irequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\irequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iappservice\\iexpertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iappservice\\iexpertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\proposals\\createproposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\proposals\\createproposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\proposals\\proposallistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\proposals\\proposallistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\proposalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\proposalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\proposalappservices\\proposalappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\proposalappservices\\proposalappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\iproposalappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\iproposalappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\proposalslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\proposalslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\requestdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\requestdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\customers\\proposalslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\customers\\proposalslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\customers\\customerordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\customers\\customerordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\utilities\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\utilities\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\proposals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\proposals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\proposal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\proposal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\requests\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\requests\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\utils\\dateutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\utils\\dateutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\requests\\createrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\requests\\createrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\subhomeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\subhomeservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\isubhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\isubhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\subhomeserappservices\\subhomeserviceappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\subhomeserappservices\\subhomeserviceappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\isubhomeserviceappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\isubhomeserviceappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\servicehierarchy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\servicehierarchy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\subhomeserviceslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\customer\\subhomeserviceslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\entities\\subhomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\entities\\subhomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\orderappservices\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\orderappservices\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\services\\interfaces\\iappservice\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\expertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\expertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\users\\interfaces\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\createappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\createappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\users\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\userappservices\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\userappservices\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\adminservices\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\adminservices\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\adminappservices\\adminuserappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\adminappservices\\adminuserappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILocationRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:42:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:26:57.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubHomeServiceListItemDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:26:44.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:25:55.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:11:44.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpertController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwLkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:06:03.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILocationAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:04:17.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:06:49.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubHomeServiceService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:09:55.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAASwGEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:55:29.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILocationService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:42:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:46:59.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T19:12:50.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:12:29.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:03:00.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Province.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:03:01.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAADwvwoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:25:26.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Proposal.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:25:14.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:55:57.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:53:32.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:48:10.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditExpertDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:08:09.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DateTimeExtensions.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:39:57.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExpertAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:44:15.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateOrderDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:37:03.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SkillAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvwsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:09:41.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAkwO0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:12:04.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SkillDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:08:34.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ISkillAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:07:54.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ISkillRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:20:49.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAM4DAAAAAAAAAAAAADwDAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:04:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwJUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:50:59.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:49:16.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:54:24.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ISubHomeServiceRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:52:52.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SkillRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAiwKQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:21:08.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ISkillService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:36:04.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:37:11.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReviewAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA9wGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:52:17.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IReviewAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:46:58.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:51:51.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:49:48.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RequestAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswGUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:20:20.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IExpertRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:09:37.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IExpertService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:08:56.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ExpertService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:09:18.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProposalService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:22:26.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IProposalService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:17:09.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProposalDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:00:09.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:16:39.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IExpertSkillRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:01:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:56:12.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProposalStatus.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T17:03:21.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IProposalRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:19:29.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:41:05.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeService.Domain.Services.csproj",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-09T16:54:59.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:42:48.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CreateProposal.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:13:36.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AvailableRequests.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAASwEQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:13:13.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_ProposalsListPartial.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwHAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T16:19:03.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TransactionAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAuwG8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:52:06.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Proposals.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAkwMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:12:56.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAWwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:17:07.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:16:04.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IRequestAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:18:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IExpertAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:06:42.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateProposalDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:25:01.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ProposalListItemDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:00:08.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProposalAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:19:09.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IProposalAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:17:22.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProposalRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAABABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:19:45.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProposalsList.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:54:14.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RequestDetails.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:32:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ProposalsListViewModel.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:54:52.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CustomerOrdersViewModel.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:52:29.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:51:46.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwJsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:56:32.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:24:27.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "_CustomerLayout.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwKUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:47:39.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:44:24.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DateTimeExtensions.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:21:36.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:45:09.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Requests.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:45:19.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:25:38.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:32:32.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Proposals.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:28:28.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "DateUtils.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:38:55.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RequestRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwB4AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:29:16.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "CreateRequestDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:26:33.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ISubHomeServiceService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:09:04.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ServiceHierarchy.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwIgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:05:59.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "SubHomeServiceAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAlwLMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:05:30.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ISubHomeServiceAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:04:56.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T19:31:25.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "SubHomeServiceRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAIAwwPIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:10:03.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "SubHomeServicesList.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwHQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T16:03:38.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "SubHomeService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:53:29.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:22:57.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAYwEABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:23:38.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:23:19.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:22:35.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "OrderAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAYwCQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:22:21.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IOrderAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:21:33.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:10:50.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ExpertRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAYwLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:10:00.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:08:55.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "AppUserRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:00:03.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:59:51.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "UserAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:59:37.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "AdminUserRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
+              "RelativeToolTip": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:58:14.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "AdminUserService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwCgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:58:04.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "AdminUserAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwCcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:57:55.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:57:31.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:40:46.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "CreateAppUserDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:41:10.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:37:20.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwGQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:37:08.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "CustomerAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAqwLUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:51:34.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

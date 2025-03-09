@@ -1,0 +1,94 @@
+﻿@model App.Domain.Core.DTO.HomeServices.UpdateHomeServiceDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-header" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); padding: 25px 0; border-bottom: 4px solid #00c4cc;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 text-right">
+                <h1 class="m-0 text-white" style="font-weight: 700; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                    <i class="fas fa-edit mr-2"></i> ویرایش سرویس
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content" style="background: #f4f6f9; padding: 40px 0;">
+    <div class="container-fluid">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #28a745; background: linear-gradient(to right, #d4edda, #c3e6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-success"><i class="fas fa-check-circle mr-2"></i> موفقیت!</strong> @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #dc3545; background: linear-gradient(to right, #f8d7da, #f5c6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-danger"><i class="fas fa-exclamation-circle mr-2"></i> خطا!</strong> @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-lg" style="border-radius: 25px; overflow: hidden; background: #fff; transition: all 0.4s ease;">
+                    <div class="card-header bg-gradient-dark p-4 text-white" style="border-bottom: 2px solid #00c4cc;">
+                        <h4 class="mb-0" style="font-weight: 700; letter-spacing: 1px;">
+                            <i class="fas fa-edit mr-2"></i> فرم ویرایش سرویس
+                        </h4>
+                    </div>
+                    <div class="card-body p-5">
+                        <form method="post" asp-action="Edit" asp-area="Admin" asp-route-id="@Model.Id" enctype="multipart/form-data">
+                            <input type="hidden" name="Id" value="@Model.Id" />
+                            <div class="form-group mb-4">
+                                <label for="Name">نام سرویس</label>
+                                <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="Description">توضیحات</label>
+                                <textarea class="form-control" id="Description" name="Description" rows="3">@Model.Description</textarea>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="ImagePath">تصویر فعلی</label>
+                                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                {
+                                    <img src="@Model.ImagePath" alt="Current Image" style="max-width: 200px;" />
+                                }
+                                <label for="imageFile">تصویر جدید</label>
+                                <input type="file" class="custom-file-input" id="imageFile" name="imageFile" accept="image/*" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="CategoryId">دسته‌بندی</label>
+                                <select class="form-control" id="CategoryId" name="CategoryId">
+                                    @foreach (var category in ViewBag.Categories)
+                                    {
+                                        <option value="@category.Value" @(category.Value == Model.CategoryId.ToString() ? "selected" : "")>@category.Text</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="IsActive">وضعیت</label>
+                                <select class="form-control" id="IsActive" name="IsActive">
+                                    <option value="true" @(Model.IsActive ? "selected" : "")>فعال</option>
+                                    <option value="false" @(Model.IsActive ? "" : "selected")>غیرفعال</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-success">ذخیره تغییرات</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card { transition: all 0.4s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.25); }
+    .btn { transition: all 0.3s ease; }
+    .btn:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+</style>

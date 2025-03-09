@@ -1,0 +1,166 @@
+﻿@{
+    var customerId = Context.Session.GetInt32("UserId");
+}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - چاره‌ساز</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    @RenderSection("Styles", required: false)
+    <style>
+        /* استایل هدر */
+        .navbar-custom {
+            background-color: #1e3a8a;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .user-dropdown-btn {
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.3rem;
+            padding: 5px;
+            transition: color 0.3s;
+        }
+
+            .user-dropdown-btn:hover {
+                color: #ccc;
+            }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+            .navbar-brand img {
+                height: 40px;
+                margin-left: 10px;
+            }
+
+        .auth-btns {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .auth-btn {
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+            .auth-btn:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+
+        .extra-links {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* استایل فوتر */
+        .footer-custom {
+            background: #2d3748;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            .footer-custom p {
+                font-size: 0.9rem;
+                margin-bottom: 0;
+            }
+
+        /* فاصله برای هدر ثابت */
+        main {
+            padding-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- هدر -->
+    <nav class="navbar navbar-custom">
+        <div class="container navbar-container">
+            <!-- دکمه‌های سمت راست -->
+            <div class="extra-links">
+                <a href="@Url.Action("Categories", "Home")" class="auth-btn">دسته‌بندی</a>
+                <a href="@Url.Action("Contact", "Home")" class="auth-btn">تماس با ما</a>
+                <a href="@Url.Action("ServiceHierarchy", "Customer")" class="auth-btn">ثبت سفارش</a>
+            </div>
+
+            <!-- لوگو (وسط) -->
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <img src="~/images/logo.png" alt="چاره‌ساز" class="img-fluid">
+            </a>
+
+            <!-- دکمه‌های ورود و ثبت‌نام سمت چپ / منوی کاربری -->
+            <div class="auth-btns">
+                @if (customerId.HasValue)
+                {
+                    <div class="dropdown">
+                        <button class="dropdown-toggle user-dropdown-btn" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("Dashboard", "Customer")">داشبورد من</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ServiceHierarchy", "Customer")">ثبت سفارش جدید</a></li>
+                            <li>
+                                <form method="post" action="@Url.Action("Logout", "Account")">
+                                    <button type="submit" class="dropdown-item text-danger">خروج</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <a href="@Url.Action("Login", "Account")" class="auth-btn">ورود</a>
+                    <a href="@Url.Action("Register", "Account")" class="auth-btn">ثبت‌نام</a>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <!-- محتوای اصلی -->
+    <main class="container mt-5">
+        @RenderBody()
+    </main>
+
+    <!-- فوتر -->
+    <footer class="footer-custom">
+        <p>© 1403 چاره‌ساز - همه حقوق محفوظ است.</p>
+    </footer>
+
+    <!-- اسکریپت‌های بوت‌استرپ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿@model List<App.Domain.Core.DTO.Requests.RequestDto>
+@using App.Endpoints.MVC.Extensions
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "نمایش درخواست‌ها";
+}
+
+<h2 class="section-title">لیست درخواست‌ها</h2>
+<div class="requests-card">
+    @if (Model == null || !Model.Any())
+    {
+        <p class="no-data">درخواستی ثبت نشده است.</p>
+    }
+    else
+    {
+        <table class="requests-table">
+            <thead>
+                <tr>
+                    <th>شماره درخواست</th>
+                    <th>تاریخ ثبت</th>
+                    <th>وضعیت</th>
+                    <th>سرویس</th>
+                    <th>تاریخ سررسید</th>
+                    <th>تاریخ اجرا</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var request in Model)
+                {
+                    <tr>
+                        <td>@request.Id</td>
+                        <td>@request.CreatedAt.ToPersianDate()</td>
+                        <td>@request.Status.GetDisplayName()</td>
+                        <td>@request.SubHomeServiceName</td>
+                        <td>@request.Deadline.ToPersianDate()</td>
+                        <td>@request.ExecutionDate.ToPersianDate()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <a href="@Url.Action("Dashboard", "Customer")" class="btn-back">بازگشت به داشبورد</a>
+</div>
+
+<style>
+    .section-title {
+        color: #1e3a8a;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .requests-card {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        padding: 25px;
+        max-width: 900px;
+        margin: 20px auto;
+    }
+
+    .no-data {
+        text-align: center;
+        color: #64748b;
+        font-size: 1.1rem;
+    }
+
+    .requests-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .requests-table th, .requests-table td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .requests-table th {
+            background: #1e3a8a;
+            color: white;
+            font-weight: 600;
+        }
+
+        .requests-table td {
+            color: #333;
+        }
+
+    .btn-back {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 15px;
+        background: #4c51bf;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-back:hover {
+            background: #434190;
+            transform: translateY(-2px);
+        }
+</style>

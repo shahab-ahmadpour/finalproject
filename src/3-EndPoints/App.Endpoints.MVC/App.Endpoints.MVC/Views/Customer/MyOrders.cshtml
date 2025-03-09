@@ -1,0 +1,325 @@
+﻿@model App.Domain.Core.DTO.Users.Customers.CustomerOrdersViewModel
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    ViewData["Title"] = "سفارش‌های من";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-11">
+            <h2 class="mb-4 text-center fw-bold">سفارش‌های من</h2>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="requests-tab" data-bs-toggle="tab" data-bs-target="#requests-tab-pane"
+                            type="button" role="tab" aria-controls="requests-tab-pane" aria-selected="true">
+                        <i class="bi bi-file-earmark-text me-1"></i> درخواست‌ها
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders-tab-pane"
+                            type="button" role="tab" aria-controls="orders-tab-pane" aria-selected="false">
+                        <i class="bi bi-bag-check me-1"></i> سفارش‌های فعال
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="completed-tab" data-bs-toggle="tab" data-bs-target="#completed-tab-pane"
+                            type="button" role="tab" aria-controls="completed-tab-pane" aria-selected="false">
+                        <i class="bi bi-check2-all me-1"></i> سفارش‌های تکمیل شده
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <!-- درخواست‌ها -->
+                <div class="tab-pane fade show active" id="requests-tab-pane" role="tabpanel" aria-labelledby="requests-tab" tabindex="0">
+                    @if (!Model.Requests.Any())
+                    {
+                        <div class="text-center py-5">
+                            <i class="bi bi-file-earmark-text text-muted" style="font-size: 3rem;"></i>
+                            <p class="mt-3 text-muted">شما هنوز درخواستی ثبت نکرده‌اید</p>
+                            <a href="@Url.Action("ServiceHierarchy")" class="btn btn-primary mt-2">
+                                ثبت درخواست جدید <i class="bi bi-plus-lg ms-1"></i>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th>شماره</th>
+                                        <th>نوع سرویس</th>
+                                        <th>تاریخ ثبت</th>
+                                        <th>وضعیت</th>
+                                        <th>تاریخ اجرا</th>
+                                        <th>پیشنهادات</th>
+                                        <th>عملیات</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var request in Model.Requests.OrderByDescending(r => r.CreatedAt))
+                                    {
+                                        var proposals = Model.Proposals.Where(p => p.RequestId == request.Id).ToList();
+                                        var hasProposals = proposals.Any();
+                                        var hasActiveOrder = Model.ActiveOrders.Any(o => o.RequestId == request.Id);
+
+                                        <tr>
+                                            <td>@request.Id</td>
+                                            <td>@request.SubHomeServiceName</td>
+                                            <td>@request.CreatedAt.ToPersianDate()</td>
+                                            <td>
+                                                <span class="badge @GetStatusBadgeClass(request.Status)">
+                                                    @request.Status.GetDisplayName()
+                                                </span>
+                                            </td>
+                                            <td>@request.ExecutionDate.ToPersianDate()</td>
+                                            <td>
+                                                @if (hasProposals)
+                                                {
+                                                    <a href="@Url.Action("ProposalsList", new { requestId = request.Id })" class="btn btn-sm btn-outline-primary">
+                                                        مشاهده (@proposals.Count)
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted small">بدون پیشنهاد</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <a href="@Url.Action("RequestDetails", new { id = request.Id })"
+                                                       class="btn btn-sm btn-outline-info me-1" title="جزئیات">
+                                                        <i class="bi bi-info-circle"></i>
+                                                    </a>
+
+                                                    @if (!hasActiveOrder && request.Status != RequestStatus.Cancelled && request.Status != RequestStatus.Completed)
+                                                    {
+                                                        <a href="@Url.Action("CancelRequest", new { id = request.Id })"
+                                                           class="btn btn-sm btn-outline-danger"
+                                                           onclick="return confirm('آیا از لغو این درخواست اطمینان دارید؟');"
+                                                           title="لغو درخواست">
+                                                            <i class="bi bi-x-circle"></i>
+                                                        </a>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+
+                <!-- سفارش‌های فعال -->
+                <div class="tab-pane fade" id="orders-tab-pane" role="tabpanel" aria-labelledby="orders-tab" tabindex="0">
+                    @if (!Model.ActiveOrders.Any())
+                    {
+                        <div class="text-center py-5">
+                            <i class="bi bi-bag-check text-muted" style="font-size: 3rem;"></i>
+                            <p class="mt-3 text-muted">شما هنوز سفارش فعالی ندارید</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th>شماره</th>
+                                        <th>نوع سرویس</th>
+                                        <th>کارشناس</th>
+                                        <th>تاریخ ثبت</th>
+                                        <th>مبلغ</th>
+                                        <th>وضعیت پرداخت</th>
+                                        <th>عملیات</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var order in Model.ActiveOrders.OrderByDescending(o => o.CreatedAt))
+                                    {
+                                        var isCompleted = order.Status == RequestStatus.Completed;
+                                        var isPending = order.PaymentStatus == PaymentStatus.Pending;
+
+                                        <tr>
+                                            <td>@order.Id</td>
+                                            <td>@order.SubHomeServiceName</td>
+                                            <td>@order.ExpertName</td>
+                                            <td>@order.CreatedAt.ToPersianDate()</td>
+                                            <td>@order.FinalPrice.ToString("N0") ریال</td>
+                                            <td>
+                                                <span class="badge @GetPaymentStatusBadgeClass(order.PaymentStatus)">
+                                                    @order.PaymentStatus.GetDisplayName()
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <a href="@Url.Action("OrderDetails", new { id = order.Id })"
+                                                       class="btn btn-sm btn-outline-info me-1" title="جزئیات">
+                                                        <i class="bi bi-info-circle"></i>
+                                                    </a>
+
+                                                    @if (isCompleted && isPending)
+                                                    {
+                                                        <a href="@Url.Action("Payment", new { orderId = order.Id })"
+                                                           class="btn btn-sm btn-success me-1" title="پرداخت">
+                                                            پرداخت <i class="bi bi-credit-card"></i>
+                                                        </a>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+
+                <!-- سفارش‌های تکمیل شده -->
+                <div class="tab-pane fade" id="completed-tab-pane" role="tabpanel" aria-labelledby="completed-tab" tabindex="0">
+                    @if (!Model.CompletedOrders.Any())
+                    {
+                        <div class="text-center py-5">
+                            <i class="bi bi-check2-all text-muted" style="font-size: 3rem;"></i>
+                            <p class="mt-3 text-muted">شما هنوز سفارش تکمیل شده‌ای ندارید</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th>شماره</th>
+                                        <th>نوع سرویس</th>
+                                        <th>کارشناس</th>
+                                        <th>تاریخ تکمیل</th>
+                                        <th>مبلغ</th>
+                                        <th>وضعیت</th>
+                                        <th>عملیات</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var order in Model.CompletedOrders.OrderByDescending(o => o.CompletionDate))
+                                    {
+                                        var hasReview = Model.Reviews.Any(r => r.OrderId == order.Id);
+
+                                        <tr>
+                                            <td>@order.Id</td>
+                                            <td>@order.SubHomeServiceName</td>
+                                            <td>@order.ExpertName</td>
+                                            <td>@(order.CompletionDate?.ToPersianDate() ?? "نامشخص")</td>
+                                            <td>@order.FinalPrice.ToString("N0") ریال</td>
+                                            <td>
+                                                <span class="badge bg-success">تکمیل شده</span>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <a href="@Url.Action("OrderDetails", new { id = order.Id })"
+                                                       class="btn btn-sm btn-outline-info me-1" title="جزئیات">
+                                                        <i class="bi bi-info-circle"></i>
+                                                    </a>
+
+                                                    @if (!hasReview)
+                                                    {
+                                                        <a href="@Url.Action("CreateReview", new { orderId = order.Id })"
+                                                           class="btn btn-sm btn-outline-primary" title="ثبت نظر">
+                                                            <i class="bi bi-star"></i>
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a href="@Url.Action("ViewReview", new { orderId = order.Id })"
+                                                           class="btn btn-sm btn-outline-secondary" title="مشاهده نظر">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .badge {
+            font-size: 0.85rem;
+            padding: 0.4em 0.6em;
+            font-weight: 500;
+        }
+
+        .nav-tabs .nav-link {
+            color: #495057;
+            font-weight: 500;
+        }
+
+            .nav-tabs .nav-link.active {
+                color: #1e3a8a;
+                font-weight: 600;
+            }
+
+        .table th {
+            font-weight: 600;
+        }
+
+        .table-hover > tbody > tr:hover {
+            background-color: rgba(30, 58, 138, 0.04);
+        }
+    </style>
+}
+
+@functions {
+    public string GetStatusBadgeClass(RequestStatus status)
+    {
+        return status switch
+        {
+            RequestStatus.Pending => "bg-warning",
+            RequestStatus.InProgress => "bg-primary",
+            RequestStatus.Completed => "bg-success",
+            RequestStatus.Cancelled => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+
+    public string GetPaymentStatusBadgeClass(PaymentStatus status)
+    {
+        return status switch
+        {
+            PaymentStatus.Pending => "bg-warning",
+            PaymentStatus.paid => "bg-success",
+            PaymentStatus.Failed => "bg-danger",
+            PaymentStatus.Completed => "bg-primary",
+            _ => "bg-secondary"
+        };
+    }
+}

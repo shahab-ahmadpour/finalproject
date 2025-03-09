@@ -1,0 +1,113 @@
+﻿@model App.Domain.Core.DTO.Categories.UpdateCategoryDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-header" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); padding: 25px 0; border-bottom: 4px solid #00c4cc;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 text-right">
+                <h1 class="m-0 text-white" style="font-weight: 700; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                    <i class="fas fa-edit mr-2"></i> ویرایش دسته‌بندی
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content" style="background: #f4f6f9; padding: 40px 0;">
+    <div class="container-fluid">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #28a745; background: linear-gradient(to right, #d4edda, #c3e6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-success"><i class="fas fa-check-circle mr-2"></i> موفقیت!</strong> @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #dc3545; background: linear-gradient(to right, #f8d7da, #f5c6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-danger"><i class="fas fa-exclamation-circle mr-2"></i> خطا!</strong> @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-lg" style="border-radius: 25px; overflow: hidden; background: #fff; transition: all 0.4s ease;">
+                    <div class="card-header bg-gradient-dark p-4 text-white" style="border-bottom: 2px solid #00c4cc;">
+                        <h4 class="mb-0" style="font-weight: 700; letter-spacing: 1px;">
+                            <i class="fas fa-edit mr-2"></i> فرم ویرایش دسته‌بندی
+                        </h4>
+                    </div>
+                    <div class="card-body p-5">
+                        <form method="post" asp-action="Edit" asp-area="Admin" asp-route-id="@Model.Id" enctype="multipart/form-data">
+                            <input type="hidden" name="Id" value="@Model.Id" />
+
+                            <div class="form-group mb-4">
+                                <label for="Name" class="text-muted font-weight-bold">نام دسته‌بندی</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg shadow-sm" id="Name" name="Name" value="@Model.Name" required style="border-radius: 15px 0 0 15px;" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-primary text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-cog"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="Description" class="text-muted font-weight-bold">توضیحات</label>
+                                <textarea class="form-control shadow-sm" id="Description" name="Description" rows="3" style="border-radius: 15px; resize: none; background: #f8f9fa; transition: all 0.3s ease;" onfocus="this.style.background='#fff'; this.style.boxShadow='0 0 10px rgba(0,123,255,0.3)';">@Model.Description</textarea>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="ImagePath" class="text-muted font-weight-bold">تصویر فعلی</label>
+                                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                {
+                                    <div class="shadow-sm p-3" style="border-radius: 15px; background: #f8f9fa;">
+                                        <img src="@Model.ImagePath" alt="@Model.Name" style="max-width: 200px; border-radius: 10px;" />
+                                    </div>
+                                }
+                                <input type="hidden" name="ImagePath" value="@Model.ImagePath"/>
+                                <label for="imageFile" class="text-muted font-weight-bold mt-2">تصویر جدید</label>
+                                <div class="custom-file shadow-sm" style="border-radius: 15px; overflow: hidden;">
+                                    <input type="file" class="custom-file-input" id="imageFile" name="imageFile" accept="image/*" />
+                                    <label class="custom-file-label" for="imageFile" style="background: #e9ecef;"></label>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="IsActive" class="text-muted font-weight-bold">وضعیت</label>
+                                <div class="input-group">
+                                    <select class="form-control form-control-lg shadow-sm" id="IsActive" name="IsActive" style="border-radius: 15px 0 0 15px;">
+                                        <option value="true" @(Model.IsActive ? "selected" : "")>فعال</option>
+                                        <option value="false" @(Model.IsActive ? "" : "selected")>غیرفعال</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-success text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-toggle-on"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-right mt-4">
+                                <button type="submit" class="btn btn-success btn-lg shadow-lg px-5" style="border-radius: 30px; background: linear-gradient(45deg, #28a745, #34c759);">
+                                    <i class="fas fa-save mr-2"></i> ذخیره تغییرات
+                                </button>
+                                <a href="@Url.Action("Index", "Category", new { area = "Admin" })" class="btn btn-dark btn-lg shadow-lg px-5 ml-2" style="border-radius: 30px; background: linear-gradient(45deg, #2c3e50, #34495e);">
+                                    <i class="fas fa-arrow-left mr-2"></i> بازگشت
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card { transition: all 0.4s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.25); }
+    .btn { transition: all 0.3s ease; }
+    .btn:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+</style>

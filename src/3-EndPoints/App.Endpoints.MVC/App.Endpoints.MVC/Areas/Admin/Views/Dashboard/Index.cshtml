@@ -1,0 +1,82 @@
+﻿@model App.Domain.Core.DTO.Dashboard.DashboardDto
+@using System.Globalization
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">داشبورد مدیریت</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h3>@Model.NewOrders</h3>
+                        <p>سفارشات جدید</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-bag"></i>
+                    </div>
+                    <a href="/Admin/Order" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>@Model.RegisteredUsers</h3>
+                        <p>کاربران ثبت‌شده</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                    </div>
+                    <a href="/Admin/AdminUser" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h3>@Model.Services</h3>
+                        <p>سرویس‌ها</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-cogs"></i>
+                    </div>
+                    <a href="/Admin/SubHomeService" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3>@Model.Reviews</h3>
+                        <p>کامنت‌ها</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-chatbubbles"></i>
+                    </div>
+                    <a href="/Admin/Review" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" style="background-color: #007bff; color: white;">
+                <div class="d-flex justify-content-between align-items-center">
+                <h3 class="card-title">خوش آمدید به پنل مدیریت</h3>
+                </div>
+            </div>
+            <div class="card-body">
+                <p> </p>
+            </div>
+        </div>
+    </div>
+</section>

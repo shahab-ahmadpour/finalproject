@@ -1,0 +1,128 @@
+﻿@model App.Domain.Core.DTO.Orders.UpdateOrderDto
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-header" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); padding: 25px 0; border-bottom: 4px solid #00c4cc;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 text-right">
+                <h1 class="m-0 text-white" style="font-weight: 700; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                    <i class="fas fa-shopping-cart mr-2"></i> ویرایش سفارش
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content" style="background: #f4f6f9; padding: 40px 0;">
+    <div class="container-fluid">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #28a745; background: linear-gradient(to right, #d4edda, #c3e6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-success"><i class="fas fa-check-circle mr-2"></i> موفقیت!</strong> @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show shadow-lg" style="border-radius: 15px; border-left: 6px solid #dc3545; background: linear-gradient(to right, #f8d7da, #f5c6cb);">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong class="text-danger"><i class="fas fa-exclamation-circle mr-2"></i> خطا!</strong> @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-lg" style="border-radius: 25px; overflow: hidden; background: #fff; transition: all 0.4s ease;">
+                    <div class="card-header bg-gradient-dark p-4 text-white" style="border-bottom: 2px solid #00c4cc;">
+                        <h4 class="mb-0" style="font-weight: 700; letter-spacing: 1px;">
+                            <i class="fas fa-edit mr-2"></i> فرم ویرایش سفارش
+                        </h4>
+                    </div>
+                    <div class="card-body p-5">
+                        <form method="post" asp-action="Edit" asp-area="Admin" asp-route-id="@Model.Id">
+                            <input type="hidden" name="Id" value="@Model.Id" />
+
+                            <div class="form-group mb-4">
+                                <label for="CustomerName" class="text-muted font-weight-bold">نام مشتری</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg shadow-sm" id="CustomerName" name="CustomerName" value="@Model.CustomerName" readonly style="border-radius: 15px 0 0 15px; background: #e9ecef;" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-primary text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-user"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="ExpertName" class="text-muted font-weight-bold">نام کارشناس</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg shadow-sm" id="ExpertName" name="ExpertName" value="@Model.ExpertName" readonly style="border-radius: 15px 0 0 15px; background: #e9ecef;" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-primary text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-user-tie"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="RequestDescription" class="text-muted font-weight-bold">شرح درخواست</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg shadow-sm" id="RequestDescription" name="RequestDescription" value="@Model.RequestDescription" readonly style="border-radius: 15px 0 0 15px; background: #e9ecef;" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-primary text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-comment"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="PaymentStatus" class="text-muted font-weight-bold">وضعیت پرداخت</label>
+                                <div class="input-group">
+                                    <select class="form-control form-control-lg shadow-sm" id="PaymentStatus" name="PaymentStatus" style="border-radius: 15px 0 0 15px;">
+                                        <option value="Pending" @(Model.PaymentStatus == PaymentStatus.Pending ? "selected" : "")>در انتظار پرداخت</option>
+                                        <option value="Paid" @(Model.PaymentStatus == PaymentStatus.Completed ? "selected" : "")>پرداخت شده</option>
+                                        <option value="Failed" @(Model.PaymentStatus == PaymentStatus.Failed ? "selected" : "")>ناموفق</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-info text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-money-check-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="IsActive" class="text-muted font-weight-bold">وضعیت سفارش</label>
+                                <div class="input-group">
+                                    <select class="form-control form-control-lg shadow-sm" id="IsActive" name="IsActive" style="border-radius: 15px 0 0 15px;">
+                                        <option value="true" @(Model.IsActive ? "selected" : "")>فعال</option>
+                                        <option value="false" @(Model.IsActive ? "" : "selected")>غیرفعال</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-gradient-success text-white" style="border-radius: 0 15px 15px 0;"><i class="fas fa-toggle-on"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-right mt-4">
+                                <button type="submit" class="btn btn-warning btn-lg shadow-lg px-5" style="border-radius: 30px; background: linear-gradient(45deg, #f39c12, #f1c40f);">
+                                    <i class="fas fa-save mr-2"></i> ذخیره تغییرات
+                                </button>
+                                <a href="@Url.Action("Index", "Order", new { area = "Admin" })" class="btn btn-dark btn-lg shadow-lg px-5 ml-2" style="border-radius: 30px; background: linear-gradient(45deg, #2c3e50, #34495e);">
+                                    <i class="fas fa-arrow-left mr-2"></i> بازگشت به لیست سفارش‌ها
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card { transition: all 0.4s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.25); }
+    .btn { transition: all 0.3s ease; }
+    .btn:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+</style>

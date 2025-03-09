@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTO\ExpertSkills\ExpertSkillDetailDto.cs" />
+    <Compile Remove="DTO\ExpertSkills\ExpertSkillListItemDto.cs" />
+    <Compile Remove="DTO\HomeServices\HomeServiceDetailDto.cs" />
+    <Compile Remove="DTO\Orders\OrderDetailDto.cs" />
+    <Compile Remove="DTO\Orders\OrderListItemDto.cs" />
+    <Compile Remove="DTO\Proposals.cs" />
+    <Compile Remove="DTO\Proposals\ProposalDetailDto.cs" />
+    <Compile Remove="DTO\Requests\RequestDetailDto.cs" />
+    <Compile Remove="DTO\Requests\RequestListItemDto.cs" />
+    <Compile Remove="DTO\Reviews\ReviewDetailDto.cs" />
+    <Compile Remove="DTO\Reviews\ReviewListItemDto.cs" />
+    <Compile Remove="DTO\Skills\SkillDetailDto.cs" />
+    <Compile Remove="DTO\Skills\SkillListItemDto.cs" />
+    <Compile Remove="DTO\SubHomeServices\SubHomeServiceDetailDto.cs" />
+    <Compile Remove="DTO\Transactions\TransactionDetailDto.cs" />
+    <Compile Remove="DTO\Users\AppUsers\AppUserDetailDto.cs" />
+    <Compile Remove="DTO\Users\Customers\GetCustomerDto.cs" />
+    <Compile Remove="DTO\Users\Experts.cs" />
+    <Compile Remove="DTO\Users\Experts\ExpertDetailDto.cs" />
+    <Compile Remove="DTO\Users\Experts\GetExpertDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.12" />
+  </ItemGroup>
+
+</Project>

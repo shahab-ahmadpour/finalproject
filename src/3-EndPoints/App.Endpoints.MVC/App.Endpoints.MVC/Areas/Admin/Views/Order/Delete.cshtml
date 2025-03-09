@@ -1,0 +1,22 @@
+﻿@model App.Domain.Core.DTO.Orders.OrderDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-4 mb-4 text-danger">حذف سفارش</h2>
+
+<div class="card shadow">
+    <div class="card-body">
+        <p>آیا مطمئن هستید که می‌خواهید سفارش زیر را حذف کنید؟</p>
+        <p><strong>مشتری:</strong> @Model.CustomerName</p>
+        <p><strong>کارشناس:</strong> @Model.ExpertName</p>
+        <p><strong>قیمت نهایی:</strong> @Model.FinalPrice.ToString("C0")</p>
+        <p><strong>تاریخ ثبت:</strong> @Model.CreatedAt.ToShortDateString()</p>
+
+        <form method="post" asp-action="Delete" asp-area="Admin" asp-route-id="@Model.Id">
+            <button type="submit" class="btn btn-danger">بله، حذف شود</button>
+            <a href="@Url.Action("Index", "Order", new { area = "Admin" })" class="btn btn-secondary">لغو</a>
+        </form>
+    </div>
+</div>

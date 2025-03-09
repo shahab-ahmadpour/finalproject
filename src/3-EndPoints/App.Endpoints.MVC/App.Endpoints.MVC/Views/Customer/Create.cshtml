@@ -1,0 +1,191 @@
+﻿@model App.Domain.Core.DTO.Requests.CreateRequestDto
+@using App.Endpoints.MVC.Extensions
+@{
+    ViewData["Title"] = "ثبت درخواست سرویس جدید";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white py-3">
+                    <h4 class="mb-0 text-center">ثبت درخواست سرویس جدید</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <input type="hidden" asp-for="CustomerId" />
+                        <input type="hidden" asp-for="SubHomeServiceId" />
+                        <input type="hidden" asp-for="Status" />
+
+                        <!-- نام سرویس - غیرقابل تغییر -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">نوع سرویس</label>
+                            <input type="text" class="form-control bg-light" value="@Model.SubHomeServiceName" readonly />
+                        </div>
+
+                        <!-- تاریخ اجرا - شمسی -->
+                        <div class="mb-4">
+                            <label asp-for="ExecutionDate" class="form-label fw-bold">تاریخ اجرا</label>
+                            <div class="input-group">
+                                <input id="persianDatePicker" class="form-control" type="text" readonly />
+                                <input asp-for="ExecutionDate" type="hidden" id="hiddenExecutionDate" />
+                                <span class="input-group-text"><i class="bi bi-calendar3"></i></span>
+                            </div>
+                            <span asp-validation-for="ExecutionDate" class="text-danger"></span>
+                        </div>
+
+                        <!-- ساعت اجرا -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">ساعت اجرا</label>
+                            <div class="input-group">
+                                <input id="timePicker" class="form-control" type="text" readonly placeholder="00:00" />
+                                <input asp-for="ExecutionTime" type="hidden" id="hiddenExecutionTime" />
+                                <span class="input-group-text"><i class="bi bi-clock"></i></span>
+                            </div>
+                            <span asp-validation-for="ExecutionTime" class="text-danger"></span>
+                        </div>
+
+                        <!-- توضیحات -->
+                        <div class="mb-4">
+                            <label asp-for="Description" class="form-label fw-bold">توضیحات</label>
+                            <textarea asp-for="Description" class="form-control" rows="5" placeholder="لطفاً توضیحات کامل درخواست خود را وارد کنید..."></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <!-- آپلود عکس‌ها -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">آپلود تصاویر</label>
+                            <div class="input-group mb-2">
+                                <input type="file" class="form-control" name="EnvironmentImages" id="environmentImages" multiple accept="image/*" />
+                                <label class="input-group-text" for="environmentImages">انتخاب فایل‌ها</label>
+                            </div>
+                            <small class="form-text text-muted">می‌توانید چندین تصویر انتخاب کنید</small>
+                            <div id="imagePreviewContainer" class="mt-2 d-flex flex-wrap"></div>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4 pt-2 border-top">
+                            <a asp-action="SubHomeServicesList" asp-route-homeServiceId="@ViewBag.HomeServiceId" class="btn btn-danger">
+                                <i class="bi bi-x-circle me-1"></i> بازگشت
+                            </a>
+                            <button type="submit" class="btn btn-success px-4">
+                                <i class="bi bi-check2-circle me-1"></i> ذخیره
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/js/persian-datepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/persian-date@1.1.0/dist/persian-date.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clockpicker@0.0.7/dist/jquery-clockpicker.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // تنظیم تاریخ شمسی
+            $("#persianDatePicker").pDatepicker({
+                format: 'YYYY/MM/DD',
+                autoClose: true,
+                initialValue: true,
+                minDate: new persianDate().valueOf(),
+                onSelect: function(unix) {
+                    // تبدیل به تاریخ میلادی برای ارسال به سرور
+                    const pDate = new persianDate(unix);
+                    const gDate = pDate.toCalendar('gregorian').toLocale('en').format('YYYY-MM-DD');
+                    $("#hiddenExecutionDate").val(gDate);
+                }
+            });
+
+            // تنظیم ساعت
+            $('#timePicker').clockpicker({
+                placement: 'bottom',
+                align: 'right',
+                autoclose: true,
+                donetext: 'تایید',
+                afterDone: function() {
+                    $("#hiddenExecutionTime").val($('#timePicker').val());
+                }
+            });
+
+            // پیش‌نمایش تصاویر
+            $('#environmentImages').on('change', function() {
+                const fileList = this.files;
+                const container = $('#imagePreviewContainer');
+                container.empty();
+
+                if (fileList.length > 0) {
+                    for (let i = 0; i < fileList.length; i++) {
+                        const file = fileList[i];
+                        const reader = new FileReader();
+
+                        reader.onload = function(e) {
+                            const img = $('<div class="position-relative me-2 mb-2" style="width: 100px; height: 100px;">' +
+                                '<img src="' + e.target.result + '" class="img-thumbnail" style="width: 100%; height: 100%; object-fit: cover;">' +
+                                '<div class="position-absolute top-0 end-0 bg-danger text-white rounded-circle p-1 remove-img" ' +
+                                'style="cursor: pointer; transform: translate(50%, -50%);">' +
+                                '<i class="bi bi-x-circle"></i></div>' +
+                                '</div>');
+
+                            container.append(img);
+                        }
+
+                        reader.readAsDataURL(file);
+                    }
+                }
+            });
+
+            // حذف تصویر از پیش‌نمایش
+            $(document).on('click', '.remove-img', function() {
+                $(this).parent().remove();
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clockpicker@0.0.7/dist/bootstrap-clockpicker.min.css">
+    <style>
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #1e3a8a !important;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+            .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+                border-color: #bd2130;
+            }
+
+        /* تنظیمات تقویم شمسی */
+        .datepicker-plot-area {
+            font-family: inherit;
+        }
+    </style>
+}

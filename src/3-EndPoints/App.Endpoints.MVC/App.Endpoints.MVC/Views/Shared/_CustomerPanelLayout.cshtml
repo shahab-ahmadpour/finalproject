@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل مشتری - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/customer-panel.css">
+</head>
+<body>
+    <!-- هدر -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">خدمات منزل</div>
+            <div class="header-actions">
+                <a href="@Url.Action("Index", "Home")" class="header-btn">خانه</a>
+                <form method="post" action="@Url.Action("Logout", "Account")" class="logout-form">
+                    <button type="submit" class="header-btn">خروج</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- محتوای اصلی -->
+    <main class="main-content">
+        @RenderBody()
+    </main>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 1403 خدمات منزل - تمامی حقوق محفوظ است</p>
+        </div>
+    </footer>
+
+    <!-- رندر بخش Scripts -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

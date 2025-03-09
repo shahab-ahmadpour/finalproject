@@ -1,0 +1,29 @@
+﻿@model App.Domain.Core.DTO.SubHomeServices.SubHomeServiceDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-4 mb-4">حذف ساب سرویس</h2>
+
+<div class="card shadow">
+    <div class="card-body">
+        <p>آیا مطمئن هستید که ساب سرویس زیر را حذف کنید؟</p>
+        <ul>
+            <li><strong>نام:</strong> @Model.Name</li>
+            <li><strong>توضیحات:</strong> @Model.Description</li>
+            <li><strong>قیمت:</strong> @Model.BasePrice</li>
+            <li><strong>وضعیت:</strong> @(Model.IsActive ? "فعال" : "غیرفعال")</li>
+        </ul>
+
+        <form method="post" asp-action="Delete" asp-area="Admin" asp-route-id="@Model.Id">
+            <button type="submit" class="btn btn-danger mt-3">
+                حذف
+            </button>
+        </form>
+
+        <a href="@Url.Action("Index", "SubHomeService", new { area = "Admin" })" class="btn btn-secondary mt-3">
+            بازگشت
+        </a>
+    </div>
+</div>

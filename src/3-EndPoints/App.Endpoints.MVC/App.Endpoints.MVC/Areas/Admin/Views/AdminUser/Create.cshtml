@@ -1,0 +1,54 @@
+﻿@model App.Domain.Core.DTO.Users.AppUsers.CreateAppUserDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-4 mb-4">افزودن کاربر جدید</h2>
+
+<div class="card shadow">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label for="FirstName">نام</label>
+                <input type="text" class="form-control" id="FirstName" name="FirstName" value="@Model.FirstName">
+            </div>
+            <div class="form-group">
+                <label for="LastName">نام خانوادگی</label>
+                <input type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName">
+            </div>
+            <div class="form-group">
+                <label for="Email">ایمیل</label>
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required>
+            </div>
+            <div class="form-group">
+                <label for="Password">رمز عبور</label>
+                <input type="password" class="form-control" id="Password" name="Password" required>
+            </div>
+            <div class="form-group">
+                <label for="Role">نقش</label>
+                <select class="form-control" id="Role" name="Role" required>
+                    <option value="Admin">ادمین</option>
+                    <option value="Customer">مشتری</option>
+                    <option value="Expert">کارشناس</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="IsEnabled">وضعیت</label>
+                <select class="form-control" id="IsEnabled" name="IsEnabled">
+                    <option value="true">فعال</option>
+                    <option value="false">غیرفعال</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">
+                <i class="fas fa-save"></i> ذخیره
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a href="@Url.Action("Index", "AdminUser", new { area = "Admin" })" class="btn btn-primary">
+        <i class="fas fa-arrow-left"></i> بازگشت به لیست کاربران
+    </a>
+</div>

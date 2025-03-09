@@ -1,0 +1,181 @@
+﻿@model List<App.Domain.Core.DTO.HomeServices.HomeServiceDto>
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "صفحه اصلی";
+}
+
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">خدمات خانگی با چاره ساز</h1>
+            <p class="hero-subtitle">هر خدمتی که نیاز دارید، در لحظه سفارش دهید</p>
+            <form action="@Url.Action("Search", "Customer")" method="get" class="hero-search">
+                <input type="text" name="query" class="search-field" placeholder="جستجو کنید...">
+                <button type="submit" class="search-btn">جستجو</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">خدمات ما</h2>
+        @if (Model == null || !Model.Any())
+        {
+            <p class="no-services">هیچ سرویسی موجود نیست!</p>
+        }
+        else
+        {
+            <div class="services-grid">
+                @foreach (var homeService in Model)
+                {
+                    <a href="@Url.Action("Order", "Customer", new { subServiceId = homeService.SubHomeServices?.FirstOrDefault()?.Id })" class="service-card">
+                        <img src="@(string.IsNullOrEmpty(homeService.ImagePath) ? "/images/homeservices/default.jpg" : homeService.ImagePath)"
+                             alt="@homeService.Name" class="service-img" />
+                        <div class="service-info">
+                            <h3 class="service-name">@homeService.Name</h3>
+                            @if (homeService.SubHomeServices != null && homeService.SubHomeServices.Any())
+                            {
+                                <p class="service-detail">@homeService.SubHomeServices.First().Name</p>
+                            }
+                        </div>
+                    </a>
+                }
+            </div>
+            <div class="more-services">
+                <a href="@Url.Action("Services", "Customer")" class="more-btn">همه خدمات</a>
+            </div>
+        }
+    </div>
+</section>
+
+<style>
+    /* استایل اختصاصی و مرتب */
+    .hero-section {
+        background: url('/images/hero-bg.jpg') center/cover no-repeat;
+        padding: 100px 0;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+
+    .hero-content {
+        max-width: 700px;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-search {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .search-field {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        width: 300px;
+    }
+
+    .search-btn {
+        padding: 10px 20px;
+        background-color: #00a859;
+        color: white;
+        border: none;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .services-section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .service-card {
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        text-decoration: none;
+        transition: box-shadow 0.3s;
+    }
+
+        .service-card:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+    .service-img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .service-info {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .service-name {
+        font-size: 1.1rem;
+        color: #333;
+        margin: 5px 0;
+    }
+
+    .service-detail {
+        font-size: 0.85rem;
+        color: #666;
+        margin: 0;
+    }
+
+    .no-services {
+        text-align: center;
+        color: #777;
+        font-size: 1.1rem;
+    }
+
+    .more-services {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .more-btn {
+        padding: 8px 20px;
+        background-color: #00a859;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+        .more-btn:hover {
+            background-color: #008f47;
+        }
+</style>

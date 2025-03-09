@@ -1,0 +1,166 @@
+﻿@model App.Domain.Core.DTO.Orders.OrderDto
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    ViewData["Title"] = "جزئیات سفارش";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+
+    // تبدیل مسیر تصاویر به لیست
+    List<string> imagePaths = new List<string>();
+    if (!string.IsNullOrEmpty(Model.RequestImagePath))
+    {
+        imagePaths = Model.RequestImagePath.Split(';', StringSplitOptions.RemoveEmptyEntries).ToList();
+    }
+
+    bool canComplete = Model.Status == RequestStatus.InProgress;
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white p-3">
+                    <h4 class="mb-0">جزئیات سفارش #@Model.Id</h4>
+                </div>
+                <div class="card-body p-4">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="border-bottom pb-2 mb-3">اطلاعات سفارش</h5>
+                            <p><strong>نوع سرویس:</strong> @Model.SubHomeServiceName</p>
+                            <p><strong>نام مشتری:</strong> @Model.CustomerName</p>
+                            <p><strong>تاریخ سفارش:</strong> @Model.CreatedAt.ToPersianDate()</p>
+                            <p>
+                                <strong>وضعیت:</strong>
+                                <span class="badge @GetStatusBadgeClass(Model.Status)">
+                                    @Model.Status.GetDisplayName()
+                                </span>
+                            </p>
+                            <p>
+                                <strong>وضعیت پرداخت:</strong>
+                                <span class="badge @GetPaymentStatusBadgeClass(Model.PaymentStatus)">
+                                    @Model.PaymentStatus.GetDisplayName()
+                                </span>
+                            </p>
+                            <p><strong>مبلغ نهایی:</strong> @Model.FinalPrice.ToString("N0") ریال</p>
+                            <p><strong>تاریخ اجرا:</strong> @Model.ExecutionDate.ToPersianDate()</p>
+
+                            @if (Model.Status == RequestStatus.Completed && Model.CompletionDate.HasValue)
+                            {
+                                <p><strong>تاریخ تکمیل:</strong> @Model.CompletionDate.Value.ToPersianDate()</p>
+                            }
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="border-bottom pb-2 mb-3">توضیحات درخواست</h5>
+                            <div class="p-3 bg-light rounded">
+                                @(string.IsNullOrEmpty(Model.RequestDescription) ? "بدون توضیحات" : Model.RequestDescription)
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (imagePaths.Any())
+                    {
+                        <h5 class="border-bottom pb-2 mb-3">تصاویر محیط</h5>
+                        <div class="row mb-4">
+                            @foreach (var path in imagePaths)
+                            {
+                                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                                    <a href="@path" target="_blank" class="image-popup">
+                                        <img src="@path" alt="تصویر محیط" class="img-thumbnail w-100" style="height: 150px; object-fit: cover;">
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    }
+
+                    <div class="d-flex justify-content-between mt-4 pt-3 border-top">
+                        <a href="@Url.Action("Orders")" class="btn btn-secondary">
+                            <i class="bi bi-arrow-right me-1"></i> بازگشت به لیست سفارش‌ها
+                        </a>
+
+                        @if (canComplete)
+                        {
+                            <a href="@Url.Action("CompleteOrder", new { orderId = Model.Id })"
+                               class="btn btn-success"
+                               onclick="return confirm('آیا از تکمیل این سفارش اطمینان دارید؟');">
+                                <i class="bi bi-check2-all me-1"></i> تکمیل سفارش
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.image-popup').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
+    <style>
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .badge {
+            font-size: 0.85rem;
+            padding: 0.4em 0.6em;
+            font-weight: 500;
+        }
+    </style>
+}
+
+@functions {
+    public string GetStatusBadgeClass(RequestStatus status)
+    {
+        return status switch
+        {
+            RequestStatus.Pending => "bg-warning",
+            RequestStatus.InProgress => "bg-primary",
+            RequestStatus.Completed => "bg-success",
+            RequestStatus.Cancelled => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+
+    public string GetPaymentStatusBadgeClass(PaymentStatus status)
+    {
+        return status switch
+        {
+            PaymentStatus.Pending => "bg-warning",
+            PaymentStatus.paid => "bg-success",
+            PaymentStatus.Failed => "bg-danger",
+            PaymentStatus.Completed => "bg-info",
+            _ => "bg-secondary"
+        };
+    }
+}

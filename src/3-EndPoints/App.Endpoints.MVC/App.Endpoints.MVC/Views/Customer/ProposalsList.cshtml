@@ -1,0 +1,151 @@
+﻿@model App.Domain.Core.DTO.Users.Customers.ProposalsListViewModel
+@using App.Domain.Core.Enums
+@using App.Endpoints.MVC.Extensions
+
+@{
+    ViewData["Title"] = "پیشنهادهای دریافتی";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-header bg-primary text-white p-3">
+                    <h4 class="mb-0">پیشنهادهای دریافتی برای درخواست #@Model.Request.Id</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="border-bottom pb-2 mb-3">جزئیات درخواست</h5>
+                            <p><strong>نوع سرویس:</strong> @Model.Request.SubHomeServiceName</p>
+                            <p><strong>تاریخ درخواست:</strong> @Model.Request.CreatedAt.ToPersianDate()</p>
+                            <p><strong>تاریخ اجرا (درخواستی):</strong> @Model.Request.ExecutionDate.ToPersianDate()</p>
+                            <p><strong>وضعیت:</strong> <span class="badge @GetStatusBadgeClass(Model.Request.Status)">@Model.Request.Status.GetDisplayName()</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="border-bottom pb-2 mb-3">توضیحات درخواست</h5>
+                            <div class="p-3 bg-light rounded">
+                                @(string.IsNullOrEmpty(Model.Request.Description) ? "بدون توضیحات" : Model.Request.Description)
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="border-bottom pb-2 mb-3">پیشنهادها (@Model.Proposals.Count)</h5>
+
+                    @if (!Model.Proposals.Any())
+                    {
+                        <div class="alert alert-info">
+                            <i class="bi bi-info-circle me-2"></i>
+                            هنوز پیشنهادی برای این درخواست دریافت نشده است.
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="row">
+                            @foreach (var proposal in Model.Proposals.OrderByDescending(p => p.CreatedAt))
+                            {
+                                var isAccepted = proposal.Status == ProposalStatus.Accepted;
+                                var isRejected = proposal.Status == ProposalStatus.Rejected;
+                                var isPending = proposal.Status == ProposalStatus.Pending;
+                                var hasOrder = Model.HasActiveOrder;
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="card h-100 @(isAccepted ? "border-success" : isRejected ? "border-danger" : "")">
+                                        <div class="card-header @(isAccepted ? "bg-success text-white" : isRejected ? "bg-danger text-white" : "bg-light")">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="mb-0">پیشنهاد از @proposal.ExpertName</h5>
+                                                <span class="badge @(isAccepted ? "bg-white text-success" : isRejected ? "bg-white text-danger" : "bg-primary")">
+                                                    @proposal.Status.GetDisplayName()
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between mb-3">
+                                                <div>
+                                                    <p class="mb-1"><i class="bi bi-calendar-date me-1"></i> تاریخ اجرا:</p>
+                                                    <p class="fw-bold text-primary">@proposal.ExecutionDate.ToPersianDate()</p>
+                                                </div>
+                                                <div>
+                                                    <p class="mb-1"><i class="bi bi-currency-dollar me-1"></i> قیمت پیشنهادی:</p>
+                                                    <p class="fw-bold text-success">@proposal.Price.ToString("N0") ریال</p>
+                                                </div>
+                                            </div>
+
+                                            <p class="mb-2"><i class="bi bi-chat-right-text me-1"></i> توضیحات کارشناس:</p>
+                                            <div class="p-2 bg-light rounded small mb-3" style="max-height: 100px; overflow-y: auto;">
+                                                @(string.IsNullOrEmpty(proposal.Description) ? "بدون توضیحات" : proposal.Description)
+                                            </div>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <small class="text-muted">@proposal.CreatedAt.ToPersianDateWithTime()</small>
+
+                                                @if (isPending && !hasOrder)
+                                                {
+                                                    <div class="d-flex">
+                                                        <a href="@Url.Action("AcceptProposal", new { id = proposal.Id })"
+                                                           class="btn btn-sm btn-success me-2"
+                                                           onclick="return confirm('آیا از پذیرش این پیشنهاد اطمینان دارید؟');">
+                                                            <i class="bi bi-check-lg me-1"></i> قبول
+                                                        </a>
+                                                        <a href="@Url.Action("RejectProposal", new { id = proposal.Id })"
+                                                           class="btn btn-sm btn-outline-danger"
+                                                           onclick="return confirm('آیا از رد این پیشنهاد اطمینان دارید؟');">
+                                                            <i class="bi bi-x-lg me-1"></i> رد
+                                                        </a>
+                                                    </div>
+                                                }
+                                                else if (isAccepted)
+                                                {
+                                                    <span class="badge bg-success">پذیرفته شده</span>
+                                                }
+                                                else if (isRejected)
+                                                {
+                                                    <span class="badge bg-danger">رد شده</span>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+
+                    <div class="mt-4 text-center">
+                        <a href="@Url.Action("MyOrders")" class="btn btn-secondary">
+                            <i class="bi bi-arrow-right me-1"></i> بازگشت به سفارش‌های من
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .card {
+            border-width: 2px;
+        }
+
+        .badge {
+            font-size: 0.85rem;
+            padding: 0.4em 0.6em;
+            font-weight: 500;
+        }
+    </style>
+}
+
+@functions {
+    public string GetStatusBadgeClass(RequestStatus status)
+    {
+        return status switch
+        {
+            RequestStatus.Pending => "bg-warning",
+            RequestStatus.InProgress => "bg-primary",
+            RequestStatus.Completed => "bg-success",
+            RequestStatus.Cancelled => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+}

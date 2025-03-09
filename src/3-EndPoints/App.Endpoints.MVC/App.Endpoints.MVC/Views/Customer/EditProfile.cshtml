@@ -1,0 +1,76 @@
+﻿@model App.Domain.Core.DTO.Users.Customers.EditCustomerDto
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    ViewData["Title"] = "ویرایش پروفایل";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm p-4">
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default.png" : Model.ProfilePicture)"
+                             alt="Profile Picture" class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+                    </div>
+                    <h3 class="text-center mb-4">ویرایش مشخصات</h3>
+                    <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label class="form-label">نام</label>
+                            <input asp-for="FirstName" class="form-control" value="@Model.FirstName" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">نام خانوادگی</label>
+                            <input asp-for="LastName" class="form-control" value="@Model.LastName" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">شماره تلفن</label>
+                            <input asp-for="PhoneNumber" class="form-control" value="@Model.PhoneNumber" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">آدرس</label>
+                            <input asp-for="Address" class="form-control" value="@Model.Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">شهر</label>
+                            <input asp-for="City" class="form-control" value="@Model.City" />
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">استان</label>
+                            <input asp-for="State" class="form-control" value="@Model.State" />
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">عکس پروفایل</label>
+                            <input asp-for="ProfilePictureFile" type="file" class="form-control" accept="image/*" />
+                            <span asp-validation-for="ProfilePictureFile" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+                            <a href="@Url.Action("Dashboard")" class="btn btn-secondary">بازگشت</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    .stat-box {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>

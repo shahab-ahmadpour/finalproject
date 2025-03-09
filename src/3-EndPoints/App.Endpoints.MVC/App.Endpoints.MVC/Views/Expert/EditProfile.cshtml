@@ -1,0 +1,197 @@
+﻿@model App.Domain.Core.DTO.Users.Experts.EditExpertDto
+@using App.Domain.Core.Locations
+@using App.Domain.Core.Skills.Entities
+@{
+    ViewData["Title"] = "ویرایش پروفایل کارشناس";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+
+    var provinces = ViewBag.Provinces as List<Province> ?? new List<Province>();
+    var cities = ViewBag.Cities as List<City> ?? new List<City>();
+    var expertSkills = ViewBag.ExpertSkills as List<Skill> ?? new List<Skill>();
+    var subHomeServices = ViewBag.SubHomeServices as List<App.Domain.Core.DTO.SubHomeServices.SubHomeServiceListItemDto> ?? new List<App.Domain.Core.DTO.SubHomeServices.SubHomeServiceListItemDto>();
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-9">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-header bg-primary text-white p-3">
+                    <h4 class="mb-0">ویرایش اطلاعات پروفایل</h4>
+                </div>
+                <div class="card-body p-4">
+                    <!-- فرم اصلی پروفایل -->
+                    <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="AppUserId" />
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="mb-3">
+                                    <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default-avatar.png" : Model.ProfilePicture)"
+                                         class="rounded-circle img-thumbnail" alt="تصویر پروفایل"
+                                         style="width: 180px; height: 180px; object-fit: cover;">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="ProfilePictureFile" class="form-label">تصویر پروفایل</label>
+                                    <input class="form-control" type="file" id="ProfilePictureFile" name="ProfilePictureFile" accept="image/*" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="FirstName" class="form-label">نام</label>
+                                        <input asp-for="FirstName" class="form-control" />
+                                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="LastName" class="form-label">نام خانوادگی</label>
+                                        <input asp-for="LastName" class="form-control" />
+                                        <span asp-validation-for="LastName" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="PhoneNumber" class="form-label">شماره تماس</label>
+                                    <input asp-for="PhoneNumber" class="form-control" dir="ltr" />
+                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Address" class="form-label">آدرس</label>
+                                    <textarea asp-for="Address" class="form-control" rows="2"></textarea>
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="State" class="form-label">استان</label>
+                                        <select asp-for="State" class="form-select" name="State" onchange="this.form.submit()">
+                                            <option value="">-- انتخاب استان --</option>
+                                            @foreach (var province in provinces)
+                                            {
+                                                <option value="@province.Name" selected="@(province.Name == Model.State ? "selected" : null)">@province.Name</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="State" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="City" class="form-label">شهر</label>
+                                        <select asp-for="City" class="form-select" name="City">
+                                            <option value="">-- ابتدا استان را انتخاب کنید --</option>
+                                            @foreach (var city in cities)
+                                            {
+                                                <option value="@city.Name" selected="@(city.Name == Model.City ? "selected" : null)">@city.Name</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="City" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-3 border-top">
+                            <h5 class="mb-3">مهارت‌های من</h5>
+                            <div class="d-flex flex-wrap mb-3">
+                                @foreach (var skill in expertSkills)
+                                {
+                                    <div class="skill-item p-2 m-1 rounded-3 d-flex align-items-center">
+                                        <span>@skill.Name</span>
+                                        <form asp-action="RemoveSkill" method="post" class="d-inline">
+                                            <input type="hidden" name="subHomeServiceId" value="@skill.SubHomeServiceId" />
+                                            <button type="submit" class="btn btn-sm btn-link text-danger"
+                                                    onclick="return confirm('آیا از حذف این مهارت مطمئن هستید؟')">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                }
+                            </div>
+
+                            @if (!expertSkills.Any())
+                            {
+                                <div class="alert alert-info mt-2">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    شما هنوز مهارتی اضافه نکرده‌اید. برای دریافت درخواست‌های متناسب با تخصص خود، مهارت‌های خود را اضافه کنید.
+                                </div>
+                            }
+
+                            <!-- فرم افزودن مهارت -->
+                            <form asp-action="AddSkill" method="post" class="mb-3">
+                                <div class="row align-items-end">
+                                    <div class="col-md-8 mb-3">
+                                        <label class="form-label">افزودن مهارت جدید</label>
+                                        <select name="subHomeServiceId" class="form-select">
+                                            <option value="">-- انتخاب مهارت --</option>
+                                            @foreach (var subHomeService in subHomeServices.Where(s => s.IsActive))
+                                            {
+                                                <option value="@subHomeService.Id">@subHomeService.Name</option>
+                                            }
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <button type="submit" class="btn btn-success w-100">
+                                            <i class="bi bi-plus-lg me-1"></i> افزودن
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4 pt-3 border-top">
+                            <a asp-action="Dashboard" class="btn btn-secondary">
+                                <i class="bi bi-arrow-right me-1"></i> بازگشت
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-save me-1"></i> ذخیره تغییرات
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .skill-item {
+            background-color: #e9ecef;
+            transition: all 0.2s ease;
+        }
+
+            .skill-item:hover {
+                background-color: #dee2e6;
+            }
+
+        .btn-link.text-danger {
+            padding: 0;
+            margin-right: 5px;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: #1e3a8a;
+            box-shadow: 0 0 0 0.25rem rgba(30, 58, 138, 0.25);
+        }
+    </style>
+}
