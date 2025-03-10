@@ -561,3 +561,4 @@ D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\
 D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.pdb
 D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.genruntimeconfig.cache
 D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\ref\App.Endpoints.MVC.dll
+D:\MyFinalProject\src\3-EndPoints\App.Endpoints.MVC\App.Endpoints.MVC\obj\Debug\net8.0\App.Endpoints.MVC.sourcelink.json

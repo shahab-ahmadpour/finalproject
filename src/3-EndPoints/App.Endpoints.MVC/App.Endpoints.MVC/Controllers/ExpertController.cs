@@ -136,6 +136,7 @@ namespace App.Endpoints.MVC.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
+            // بررسی وضعیت مدل به صورت دقیق‌تر
             if (!ModelState.IsValid)
             {
                 _logger.Warning("ModelState is invalid for ExpertId: {ExpertId}", expertId.Value);
@@ -143,45 +144,74 @@ namespace App.Endpoints.MVC.Controllers
                 {
                     _logger.Warning("Validation error: {Error}", error.ErrorMessage);
                 }
+
+                // بارگذاری داده‌های مورد نیاز برای نمایش فرم
                 ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
                 ViewBag.Cities = string.IsNullOrEmpty(model.State)
                     ? new List<City>()
                     : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
                 ViewBag.ExpertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
                 ViewBag.SubHomeServices = await _subHomeServiceAppService.GetAllAsync(cancellationToken);
+
                 return View(model);
             }
 
-            if (model.ProfilePictureFile != null && model.ProfilePictureFile.Length > 0)
+            try
             {
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProfilePictureFile.FileName);
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                if (model.ProfilePictureFile != null && model.ProfilePictureFile.Length > 0)
                 {
-                    await model.ProfilePictureFile.CopyToAsync(stream);
+                    _logger.Information("Uploading new profile picture for ExpertId: {ExpertId}", expertId.Value);
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProfilePictureFile.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+
+                    var directory = Path.GetDirectoryName(filePath);
+                    if (!Directory.Exists(directory))
+                    {
+                        Directory.CreateDirectory(directory);
+                    }
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.ProfilePictureFile.CopyToAsync(stream);
+                    }
+                    model.ProfilePicture = $"/uploads/{fileName}";
+                    _logger.Information("Profile picture uploaded: {FilePath}", model.ProfilePicture);
                 }
-                model.ProfilePicture = $"/uploads/{fileName}";
+                else if (string.IsNullOrEmpty(model.ProfilePicture))
+                {
+                    var currentExpert = await _expertAppService.GetByIdAsync(expertId.Value, cancellationToken);
+                    model.ProfilePicture = currentExpert?.ProfilePicture;
+                    _logger.Information("Using existing profile picture: {ProfilePicture}", model.ProfilePicture);
+                }
+
+                _logger.Information("Calling UpdateExpertProfileAsync for ExpertId: {ExpertId}", expertId.Value);
+                var result = await _expertAppService.UpdateExpertProfileAsync(model, cancellationToken);
+
+                if (result)
+                {
+                    _logger.Information("Profile updated successfully for ExpertId: {ExpertId}", expertId.Value);
+                    TempData["SuccessMessage"] = "پروفایل شما با موفقیت به‌روزرسانی شد!";
+                    return RedirectToAction("Dashboard");
+                }
+                else
+                {
+                    _logger.Warning("Failed to update profile for ExpertId: {ExpertId}", expertId.Value);
+                    TempData["ErrorMessage"] = "خطا در به‌روزرسانی پروفایل. لطفاً دوباره تلاش کنید.";
+                }
             }
-            else
+            catch (Exception ex)
             {
-                var currentExpert = await _expertAppService.GetByIdAsync(expertId.Value, cancellationToken);
-                model.ProfilePicture = currentExpert?.ProfilePicture;
+                _logger.Error(ex, "Error in EditProfile for ExpertId: {ExpertId}", expertId.Value);
+                TempData["ErrorMessage"] = "خطای سیستمی در به‌روزرسانی پروفایل.";
             }
 
-            var result = await _expertAppService.UpdateExpertProfileAsync(model, cancellationToken);
-            if (result)
-            {
-                TempData["SuccessMessage"] = "پروفایل شما با موفقیت به‌روزرسانی شد!";
-                return RedirectToAction("Dashboard");
-            }
-
-            TempData["ErrorMessage"] = "خطا در به‌روزرسانی پروفایل. لطفاً دوباره تلاش کنید.";
             ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
             ViewBag.Cities = string.IsNullOrEmpty(model.State)
                 ? new List<City>()
                 : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
             ViewBag.ExpertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
             ViewBag.SubHomeServices = await _subHomeServiceAppService.GetAllAsync(cancellationToken);
+
             return View(model);
         }
 
@@ -444,16 +474,22 @@ namespace App.Endpoints.MVC.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCitiesByProvince(int provinceId, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetCitiesByProvinceName(string provinceName, CancellationToken cancellationToken)
         {
             try
             {
-                var cities = await _locationAppService.GetCitiesByProvinceIdAsync(provinceId, cancellationToken);
+                _logger.Information("Fetching cities for Province: {ProvinceName}", provinceName);
+                if (string.IsNullOrEmpty(provinceName))
+                {
+                    return Json(new List<object>());
+                }
+
+                var cities = await _locationAppService.GetCitiesByProvinceNameAsync(provinceName, cancellationToken);
                 return Json(cities);
             }
             catch (Exception ex)
             {
-                _logger.Error(ex, "Error fetching cities for ProvinceId: {ProvinceId}", provinceId);
+                _logger.Error(ex, "Error fetching cities for Province: {ProvinceName}", provinceName);
                 return Json(new List<object>());
             }
         }
@@ -464,34 +500,46 @@ namespace App.Endpoints.MVC.Controllers
             var expertId = await GetExpertIdFromSession(cancellationToken);
             if (!expertId.HasValue)
             {
-                TempData["ErrorMessage"] = "لطفاً وارد حساب کاربری خود شوید.";
-                return RedirectToAction("Login", "Account");
+                return Json(new { success = false, message = "لطفاً وارد حساب کاربری خود شوید." });
             }
 
-            var subHomeService = await _subHomeServiceAppService.GetAsync(subHomeServiceId, cancellationToken);
-            if (subHomeService == null)
+            try
             {
-                TempData["ErrorMessage"] = "سرویس مورد نظر یافت نشد.";
-                return RedirectToAction("EditProfile");
-            }
+                var subHomeService = await _subHomeServiceAppService.GetAsync(subHomeServiceId, cancellationToken);
+                if (subHomeService == null)
+                {
+                    _logger.Warning("SubHomeService not found: {SubHomeServiceId}", subHomeServiceId);
+                    return Json(new { success = false, message = "سرویس مورد نظر یافت نشد." });
+                }
 
-            var expertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
-            if (expertSkills.Any(s => s.SubHomeServiceId == subHomeServiceId))
-            {
-                TempData["ErrorMessage"] = "این مهارت قبلاً به لیست مهارت‌های شما اضافه شده است.";
-                return RedirectToAction("EditProfile");
-            }
+                var expertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
+                if (expertSkills.Any(s => s.SubHomeServiceId == subHomeServiceId))
+                {
+                    _logger.Warning("Skill already exists for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                        expertId.Value, subHomeServiceId);
+                    return Json(new { success = false, message = "این مهارت قبلاً به لیست مهارت‌های شما اضافه شده است." });
+                }
 
-            var result = await _expertAppService.AddSkillAsync(expertId.Value, subHomeServiceId, cancellationToken);
-            if (result)
-            {
-                TempData["SuccessMessage"] = "مهارت با موفقیت اضافه شد.";
+                var result = await _expertAppService.AddSkillAsync(expertId.Value, subHomeServiceId, cancellationToken);
+                if (result)
+                {
+                    _logger.Information("Skill added successfully for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                        expertId.Value, subHomeServiceId);
+                    return Json(new { success = true, message = "مهارت با موفقیت اضافه شد." });
+                }
+                else
+                {
+                    _logger.Warning("Failed to add skill for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                        expertId.Value, subHomeServiceId);
+                    return Json(new { success = false, message = "خطا در افزودن مهارت." });
+                }
             }
-            else
+            catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "خطا در افزودن مهارت.";
+                _logger.Error(ex, "Error adding skill for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                    expertId.Value, subHomeServiceId);
+                return Json(new { success = false, message = "خطای سیستمی در افزودن مهارت." });
             }
-            return RedirectToAction("EditProfile");
         }
 
         [HttpPost]
@@ -500,20 +548,31 @@ namespace App.Endpoints.MVC.Controllers
             var expertId = await GetExpertIdFromSession(cancellationToken);
             if (!expertId.HasValue)
             {
-                TempData["ErrorMessage"] = "لطفاً وارد حساب کاربری خود شوید.";
-                return RedirectToAction("Login", "Account");
+                return Json(new { success = false, message = "لطفاً وارد حساب کاربری خود شوید." });
             }
 
-            var result = await _expertAppService.RemoveSkillAsync(expertId.Value, subHomeServiceId, cancellationToken);
-            if (result)
+            try
             {
-                TempData["SuccessMessage"] = "مهارت با موفقیت حذف شد.";
+                var result = await _expertAppService.RemoveSkillAsync(expertId.Value, subHomeServiceId, cancellationToken);
+                if (result)
+                {
+                    _logger.Information("Skill removed successfully for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                        expertId.Value, subHomeServiceId);
+                    return Json(new { success = true, message = "مهارت با موفقیت حذف شد." });
+                }
+                else
+                {
+                    _logger.Warning("Failed to remove skill for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                        expertId.Value, subHomeServiceId);
+                    return Json(new { success = false, message = "خطا در حذف مهارت." });
+                }
             }
-            else
+            catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "خطا در حذف مهارت.";
+                _logger.Error(ex, "Error removing skill for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
+                    expertId.Value, subHomeServiceId);
+                return Json(new { success = false, message = "خطای سیستمی در حذف مهارت." });
             }
-            return RedirectToAction("EditProfile");
         }
 
         [HttpPost]

@@ -102,7 +102,6 @@ namespace App.Domain.Core.Users.AppServices
                 return null;
             }
 
-            // Enhance with user data
             var userDto = await _userAppService.GetByIdAsync(expertDto.AppUserId, cancellationToken);
             if (userDto != null)
             {
@@ -166,17 +165,34 @@ namespace App.Domain.Core.Users.AppServices
 
             try
             {
+                var appUser = await _userAppService.GetByIdAsync(dto.AppUserId, cancellationToken);
+                if (appUser == null)
+                {
+                    _logger.Warning("AppUser not found for AppUserId: {AppUserId}", dto.AppUserId);
+                    return false;
+                }
+
                 var updateUserDto = new UpdateAppUserDto
                 {
                     Id = dto.AppUserId,
                     FirstName = dto.FirstName,
                     LastName = dto.LastName,
-                    ProfilePicture = dto.ProfilePicture
+                    ProfilePicture = dto.ProfilePicture,
+                    IsConfirmed = appUser.IsConfirmed,
+                    Role = appUser.Role,
+                    IsEnabled = appUser.IsEnabled,
+                    AccountBalance = appUser.AccountBalance
                 };
 
+                _logger.Information("Updating AppUser information for AppUserId: {AppUserId}", dto.AppUserId);
                 var userResult = await _userAppService.UpdateAsync(dto.AppUserId, updateUserDto, cancellationToken);
 
-                // Update expert info
+                if (!userResult)
+                {
+                    _logger.Warning("Failed to update AppUser for AppUserId: {AppUserId}", dto.AppUserId);
+                    return false;
+                }
+
                 var expertId = await GetExpertIdByAppUserIdAsync(dto.AppUserId, cancellationToken);
                 if (expertId <= 0)
                 {
@@ -192,9 +208,18 @@ namespace App.Domain.Core.Users.AppServices
                     State = dto.State
                 };
 
+                _logger.Information("Updating Expert information for ExpertId: {ExpertId}", expertId);
                 var expertResult = await _expertService.UpdateAsync(expertId, updateExpertDto, cancellationToken);
 
-                return userResult && expertResult;
+                if (!expertResult)
+                {
+                    _logger.Warning("Failed to update Expert for ExpertId: {ExpertId}", expertId);
+                    return false;
+                }
+
+                _logger.Information("Successfully updated user and expert profile for AppUserId: {AppUserId}, ExpertId: {ExpertId}",
+                    dto.AppUserId, expertId);
+                return true;
             }
             catch (Exception ex)
             {

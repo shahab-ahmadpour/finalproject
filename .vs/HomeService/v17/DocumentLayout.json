@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "D:\\MyFinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\updateappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\appusers\\updateappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\createexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\createexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\expertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\expertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\updateexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\dto\\users\\experts\\updateexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\expertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\expertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\homeservice.domain.appservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\homeservice.domain.appservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\locationappservices\\locationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\locations\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\views\\expert\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.services\\subhomeserservices\\subhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74830173-0B31-4845-A001-325804D255E7}|src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.services\\subhomeserservices\\subhomeserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\expertappservices\\expertappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\dto\\expertskills\\editexpertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|d:\\myfinalproject\\src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862EFBE6-13DA-436D-BDE1-3292BFEB0741}|src\\1-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\1-domain\\core\\app.domain.core\\skills\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AD91B86-2D34-4994-A4EE-450E7D4F14E2}|src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|d:\\myfinalproject\\src\\2-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\repositories\\services\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -469,10 +497,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|d:\\myfinalproject\\src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C4F48E4D-CBA7-4179-9BE8-47C1329AA0DF}|src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\App.Endpoints.MVC.csproj|solutionrelative:src\\3-endpoints\\app.endpoints.mvc\\app.endpoints.mvc\\areas\\admin\\views\\adminuser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|d:\\myfinalproject\\src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70A562E-7C6B-4417-B533-25014E2E7B8E}|src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj|solutionrelative:src\\1-domain\\services\\homeservice.domain.appservices\\customerappservices\\customerappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -482,95 +506,89 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILocationRepository.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
-              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AppUserDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\AppUserDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\AppUserDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\AppUserDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\AppUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:42:29.215Z"
+              "WhenOpened": "2025-03-10T06:00:35.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
-              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UpdateAppUserDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\UpdateAppUserDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\UpdateAppUserDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\UpdateAppUserDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\UpdateAppUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:26:57.066Z"
+              "WhenOpened": "2025-03-10T06:00:30.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SubHomeServiceListItemDto.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
-              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreateExpertDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\CreateExpertDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\CreateExpertDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\CreateExpertDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\CreateExpertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:26:44.266Z"
+              "WhenOpened": "2025-03-10T05:56:01.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LocationService.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
-              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Title": "ExpertDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\ExpertDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\ExpertDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\ExpertDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\ExpertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:25:55.27Z"
+              "WhenOpened": "2025-03-10T05:55:58.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "UpdateExpertDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\UpdateExpertDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\UpdateExpertDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\UpdateExpertDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Experts\\UpdateExpertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T05:55:52.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EditProfile.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
               "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
               "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\EditProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T22:11:44.665Z"
+              "WhenOpened": "2025-03-07T22:11:44.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExpertController.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
-              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
-              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwLkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T22:06:03.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILocationAppService.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
-              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:04:17.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "LocationAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\LocationAppServices\\LocationAppService.cs",
@@ -582,7 +600,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpertAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:44:15.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ILocationAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IAppService\\ILocationAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:04:17.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExpertController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\ExpertController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:06:03.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\LocationServices\\LocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:25:55.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "SubHomeServiceService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SubHomeSerServices\\SubHomeServiceService.cs",
@@ -594,7 +662,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "CustomerAppService.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:51:34.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeService.Domain.AppServices",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj",
+              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\HomeService.Domain.AppServices.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T05:16:38.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAM4DAAAAAAAAAAAAADwDAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:04:11.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubHomeServiceListItemDto.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\SubHomeServices\\SubHomeServiceListItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:26:44.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:26:57.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Program.cs",
@@ -607,7 +738,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
+              "Title": "ILocationRepository.cs",
+              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "RelativeToolTip": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IRepository\\ILocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:42:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ILocationService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Interfaces\\IService\\ILocationService.cs",
@@ -619,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "LocationRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Locations\\LocationRepository.cs",
@@ -631,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "EditProfile.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\EditProfile.cshtml",
@@ -643,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "OrderDetails.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\OrderDetails.cshtml",
@@ -655,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\City.cs",
@@ -667,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Province.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Locations\\Province.cs",
@@ -679,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\CustomerServices\\CustomerService.cs",
@@ -691,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "Proposal.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Proposal.cs",
@@ -703,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Request.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Request.cs",
@@ -715,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\OrderDto.cs",
@@ -727,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Dashboard.cshtml",
@@ -739,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "EditExpertDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\ExpertSkills\\EditExpertDto.cs",
@@ -751,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "DateTimeExtensions.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Extensions\\DateTimeExtensions.cs",
@@ -763,19 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ExpertAppService.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
-              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ExpertAppServices\\ExpertAppService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:44:15.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "UpdateOrderDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Orders\\UpdateOrderDto.cs",
@@ -787,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "SkillAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SkillAppServices\\SkillAppService.cs",
@@ -799,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Orders.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Orders.cshtml",
@@ -811,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "SkillDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Skills\\SkillDto.cs",
@@ -823,7 +954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "ISkillAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IAppServices\\ISkillAppService.cs",
@@ -835,7 +966,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "ISkillRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\ISkillRepository.cs",
@@ -847,19 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAM4DAAAAAAAAAAAAADwDAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:04:11.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ReviewRepository.cs",
@@ -871,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IReviewRepository.cs",
@@ -883,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\Review.cs",
@@ -895,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "ISubHomeServiceRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\ISubHomeServiceRepository.cs",
@@ -907,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "SkillRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Skills\\SkillRepository.cs",
@@ -919,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "ISkillService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IService\\ISkillService.cs",
@@ -931,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "SkillService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\SkillServices\\SkillService.cs",
@@ -943,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "ReviewAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ReviewAppServices\\ReviewAppService.cs",
@@ -955,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "IReviewAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IReviewAppService.cs",
@@ -967,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ReviewServices\\ReviewService.cs",
@@ -979,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IReviewService.cs",
@@ -991,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "RequestAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\RequestAppServices\\RequestAppService.cs",
@@ -1003,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "IExpertRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\IExpertRepository.cs",
@@ -1015,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "IExpertService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IExpertService.cs",
@@ -1027,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "ExpertService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ExpertServices\\ExpertService.cs",
@@ -1039,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "ProposalService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\ProposalServices\\ProposalService.cs",
@@ -1051,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "IProposalService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IProposalService.cs",
@@ -1063,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "ProposalDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalDto.cs",
@@ -1075,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\ICustomerService.cs",
@@ -1087,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "IExpertSkillRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Skills\\Interfaces\\IExpertSkillRepository.cs",
@@ -1099,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "PaymentStatus.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\PaymentStatus.cs",
@@ -1111,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "ProposalStatus.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\ProposalStatus.cs",
@@ -1123,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "IProposalRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IProposalRepository.cs",
@@ -1135,7 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "RequestStatus.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Enums\\RequestStatus.cs",
@@ -1147,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "HomeService.Domain.Services.csproj",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
@@ -1155,11 +1274,12 @@
               "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.Services\\HomeService.Domain.Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-09T16:54:59.282Z"
+              "WhenOpened": "2025-03-09T16:54:59.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 64,
               "Title": "TransactionService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\TransactionServices\\TransactionService.cs",
@@ -1171,7 +1291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "CreateProposal.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\CreateProposal.cshtml",
@@ -1183,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "AvailableRequests.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\AvailableRequests.cshtml",
@@ -1195,7 +1315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "_ProposalsListPartial.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\_ProposalsListPartial.cshtml",
@@ -1207,7 +1327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "TransactionAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\TransactionAppServices\\TransactionAppService.cs",
@@ -1219,7 +1339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "Proposals.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Proposals.cshtml",
@@ -1231,7 +1351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\CustomerRepository.cs",
@@ -1243,7 +1363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 70,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IRepository\\ICustomerRepository.cs",
@@ -1255,7 +1375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 71,
               "Title": "IRequestAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IRequestAppService.cs",
@@ -1267,7 +1387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "IExpertAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IAppService\\IExpertAppService.cs",
@@ -1279,7 +1399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 73,
               "Title": "CreateProposalDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\CreateProposalDto.cs",
@@ -1291,7 +1411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "ProposalListItemDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Proposals\\ProposalListItemDto.cs",
@@ -1303,7 +1423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "ProposalAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\ProposalAppServices\\ProposalAppService.cs",
@@ -1315,7 +1435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "IProposalAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IProposalAppService.cs",
@@ -1327,7 +1447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "ProposalRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\ProposalRepository.cs",
@@ -1339,7 +1459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "ProposalsList.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ProposalsList.cshtml",
@@ -1351,7 +1471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "RequestDetails.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\RequestDetails.cshtml",
@@ -1363,7 +1483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "ProposalsListViewModel.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\ProposalsListViewModel.cs",
@@ -1375,7 +1495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "CustomerOrdersViewModel.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\Customers\\CustomerOrdersViewModel.cs",
@@ -1387,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "MyOrders.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\MyOrders.cshtml",
@@ -1399,7 +1519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Controllers\\AccountController.cs",
@@ -1411,7 +1531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 89,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Proposal\\Index.cshtml",
@@ -1423,7 +1543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "_CustomerLayout.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Shared\\_CustomerLayout.cshtml",
@@ -1435,7 +1555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 90,
               "Title": "Orders.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Orders.cshtml",
@@ -1447,7 +1567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 85,
               "Title": "DateTimeExtensions.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Utilities\\DateTimeExtensions.cs",
@@ -1459,7 +1579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 87,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\Review\\Index.cshtml",
@@ -1471,7 +1591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 86,
               "Title": "Requests.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Requests.cshtml",
@@ -1483,7 +1603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 91,
               "Title": "OrderDetails.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\OrderDetails.cshtml",
@@ -1495,7 +1615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 92,
               "Title": "RequestDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\RequestDto.cs",
@@ -1507,7 +1627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 88,
               "Title": "Proposals.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Proposals.cshtml",
@@ -1519,7 +1639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 93,
               "Title": "DateUtils.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Utils\\DateUtils.cs",
@@ -1531,7 +1651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 94,
               "Title": "RequestRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\RequestRepository.cs",
@@ -1543,7 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 95,
               "Title": "CreateRequestDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Requests\\CreateRequestDto.cs",
@@ -1555,7 +1675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 98,
               "Title": "ISubHomeServiceService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\ISubHomeServiceService.cs",
@@ -1567,7 +1687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 101,
               "Title": "ServiceHierarchy.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\ServiceHierarchy.cshtml",
@@ -1579,7 +1699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 99,
               "Title": "SubHomeServiceAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\SubHomeSerAppServices\\SubHomeServiceAppService.cs",
@@ -1591,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 100,
               "Title": "ISubHomeServiceAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\ISubHomeServiceAppService.cs",
@@ -1603,7 +1723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 96,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\Create.cshtml",
@@ -1615,7 +1735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 97,
               "Title": "SubHomeServiceRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\SubHomeServiceRepository.cs",
@@ -1627,7 +1747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 102,
               "Title": "SubHomeServicesList.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Customer\\SubHomeServicesList.cshtml",
@@ -1639,7 +1759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 103,
               "Title": "SubHomeService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Entities\\SubHomeService.cs",
@@ -1651,7 +1771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 104,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\OrderServices\\OrderService.cs",
@@ -1663,7 +1783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 105,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Services\\OrderRepository.cs",
@@ -1675,7 +1795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 106,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IRepository\\IOrderRepository.cs",
@@ -1687,7 +1807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 107,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IService\\IOrderService.cs",
@@ -1699,7 +1819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 108,
               "Title": "OrderAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\OrderAppServices\\OrderAppService.cs",
@@ -1711,7 +1831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 109,
               "Title": "IOrderAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Services\\Interfaces\\IAppService\\IOrderAppService.cs",
@@ -1723,7 +1843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 110,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Views\\Expert\\Dashboard.cshtml",
@@ -1735,7 +1855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 111,
               "Title": "ExpertRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\ExpertRepository.cs",
@@ -1747,7 +1867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 112,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\Users\\Interfaces\\IService\\IUserService.cs",
@@ -1759,7 +1879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 117,
               "Title": "AppUserRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AppUserRepository.cs",
@@ -1771,7 +1891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 119,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\UserServices\\UserService.cs",
@@ -1783,7 +1903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 118,
               "Title": "UserAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\UserAppServices\\UserAppService.cs",
@@ -1795,7 +1915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 113,
               "Title": "AdminUserRepository.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
               "RelativeDocumentMoniker": "src\\2-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\Repositories\\Users\\AdminUserRepository.cs",
@@ -1807,7 +1927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 120,
               "Title": "AdminUserService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.Services\\AdminServices\\AdminUserService.cs",
@@ -1819,7 +1939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 121,
               "Title": "AdminUserAppService.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\AdminAppServices\\AdminUserAppService.cs",
@@ -1831,7 +1951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 116,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Create.cshtml",
@@ -1843,7 +1963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 114,
               "Title": "AdminUserController.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Controllers\\AdminUserController.cs",
@@ -1855,7 +1975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 115,
               "Title": "CreateAppUserDto.cs",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
               "RelativeDocumentMoniker": "src\\1-Domain\\Core\\App.Domain.Core\\DTO\\Users\\AppUsers\\CreateAppUserDto.cs",
@@ -1867,7 +1987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 123,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Edit.cshtml",
@@ -1879,7 +1999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 122,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\MyFinalProject\\src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\3-EndPoints\\App.Endpoints.MVC\\App.Endpoints.MVC\\Areas\\Admin\\Views\\AdminUser\\Index.cshtml",
@@ -1888,18 +2008,6 @@
               "ViewState": "AgIAAEsAAAAAAAAAAAAwwGQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-07T18:37:08.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 117,
-              "Title": "CustomerAppService.cs",
-              "DocumentMoniker": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
-              "RelativeDocumentMoniker": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
-              "ToolTip": "D:\\MyFinalProject\\src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
-              "RelativeToolTip": "src\\1-Domain\\Services\\HomeService.Domain.AppServices\\CustomerAppServices\\CustomerAppService.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAqwLUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T10:51:34.126Z"
             }
           ]
         }

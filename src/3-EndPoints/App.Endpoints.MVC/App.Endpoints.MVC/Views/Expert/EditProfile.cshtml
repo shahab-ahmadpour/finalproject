@@ -1,6 +1,6 @@
-﻿@model App.Domain.Core.DTO.Users.Experts.EditExpertDto
-@using App.Domain.Core.Locations
+﻿@using App.Domain.Core.Locations
 @using App.Domain.Core.Skills.Entities
+@model App.Domain.Core.DTO.Users.Experts.EditExpertDto
 @{
     ViewData["Title"] = "ویرایش پروفایل کارشناس";
     Layout = "~/Views/Shared/_CustomerLayout.cshtml";
@@ -12,186 +12,248 @@
 }
 
 <div class="container py-4">
-    <div class="row justify-content-center">
-        <div class="col-md-9">
-            @if (TempData["SuccessMessage"] != null)
-            {
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    @TempData["SuccessMessage"]
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            }
+    <!-- بخش نمایش پیام‌ها -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
 
-            @if (TempData["ErrorMessage"] != null)
-            {
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    @TempData["ErrorMessage"]
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            }
+    <!-- نمایش خطاهای اعتبارسنجی اگر وجود داشته باشد -->
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var item in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@item.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
 
-            <div class="card shadow-sm border-0 mb-4">
-                <div class="card-header bg-primary text-white p-3">
-                    <h4 class="mb-0">ویرایش اطلاعات پروفایل</h4>
-                </div>
-                <div class="card-body p-4">
-                    <!-- فرم اصلی پروفایل -->
-                    <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
-                        <input type="hidden" asp-for="AppUserId" />
-                        <div class="row">
-                            <div class="col-md-4 text-center mb-4">
-                                <div class="mb-3">
-                                    <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default-avatar.png" : Model.ProfilePicture)"
-                                         class="rounded-circle img-thumbnail" alt="تصویر پروفایل"
-                                         style="width: 180px; height: 180px; object-fit: cover;">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="ProfilePictureFile" class="form-label">تصویر پروفایل</label>
-                                    <input class="form-control" type="file" id="ProfilePictureFile" name="ProfilePictureFile" accept="image/*" />
-                                </div>
-                            </div>
+    <div class="card">
+        <div class="card-header">
+            <h4>ویرایش پروفایل</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="AppUserId" />
+                <input type="hidden" asp-for="ProfilePicture" />
 
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label asp-for="FirstName" class="form-label">نام</label>
-                                        <input asp-for="FirstName" class="form-control" />
-                                        <span asp-validation-for="FirstName" class="text-danger"></span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label asp-for="LastName" class="form-label">نام خانوادگی</label>
-                                        <input asp-for="LastName" class="form-control" />
-                                        <span asp-validation-for="LastName" class="text-danger"></span>
-                                    </div>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label asp-for="PhoneNumber" class="form-label">شماره تماس</label>
-                                    <input asp-for="PhoneNumber" class="form-control" dir="ltr" />
-                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label asp-for="Address" class="form-label">آدرس</label>
-                                    <textarea asp-for="Address" class="form-control" rows="2"></textarea>
-                                    <span asp-validation-for="Address" class="text-danger"></span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label asp-for="State" class="form-label">استان</label>
-                                        <select asp-for="State" class="form-select" name="State" onchange="this.form.submit()">
-                                            <option value="">-- انتخاب استان --</option>
-                                            @foreach (var province in provinces)
-                                            {
-                                                <option value="@province.Name" selected="@(province.Name == Model.State ? "selected" : null)">@province.Name</option>
-                                            }
-                                        </select>
-                                        <span asp-validation-for="State" class="text-danger"></span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label asp-for="City" class="form-label">شهر</label>
-                                        <select asp-for="City" class="form-select" name="City">
-                                            <option value="">-- ابتدا استان را انتخاب کنید --</option>
-                                            @foreach (var city in cities)
-                                            {
-                                                <option value="@city.Name" selected="@(city.Name == Model.City ? "selected" : null)">@city.Name</option>
-                                            }
-                                        </select>
-                                        <span asp-validation-for="City" class="text-danger"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-4 pt-3 border-top">
-                            <h5 class="mb-3">مهارت‌های من</h5>
-                            <div class="d-flex flex-wrap mb-3">
-                                @foreach (var skill in expertSkills)
-                                {
-                                    <div class="skill-item p-2 m-1 rounded-3 d-flex align-items-center">
-                                        <span>@skill.Name</span>
-                                        <form asp-action="RemoveSkill" method="post" class="d-inline">
-                                            <input type="hidden" name="subHomeServiceId" value="@skill.SubHomeServiceId" />
-                                            <button type="submit" class="btn btn-sm btn-link text-danger"
-                                                    onclick="return confirm('آیا از حذف این مهارت مطمئن هستید؟')">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </form>
-                                    </div>
-                                }
-                            </div>
-
-                            @if (!expertSkills.Any())
+                <!-- اطلاعات شخصی -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center mb-3">
+                            @if (!string.IsNullOrEmpty(Model.ProfilePicture))
                             {
-                                <div class="alert alert-info mt-2">
-                                    <i class="bi bi-info-circle me-2"></i>
-                                    شما هنوز مهارتی اضافه نکرده‌اید. برای دریافت درخواست‌های متناسب با تخصص خود، مهارت‌های خود را اضافه کنید.
-                                </div>
+                                <img src="@Model.ProfilePicture" alt="profile" class="img-thumbnail" style="max-width: 200px;" />
                             }
-
-                            <!-- فرم افزودن مهارت -->
-                            <form asp-action="AddSkill" method="post" class="mb-3">
-                                <div class="row align-items-end">
-                                    <div class="col-md-8 mb-3">
-                                        <label class="form-label">افزودن مهارت جدید</label>
-                                        <select name="subHomeServiceId" class="form-select">
-                                            <option value="">-- انتخاب مهارت --</option>
-                                            @foreach (var subHomeService in subHomeServices.Where(s => s.IsActive))
-                                            {
-                                                <option value="@subHomeService.Id">@subHomeService.Name</option>
-                                            }
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <button type="submit" class="btn btn-success w-100">
-                                            <i class="bi bi-plus-lg me-1"></i> افزودن
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                            else
+                            {
+                                <img src="/images/default-avatar.png" alt="profile" class="img-thumbnail" style="max-width: 200px;" />
+                            }
+                            <div class="mt-2">
+                                <input type="file" class="form-control" name="ProfilePictureFile" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="FirstName" class="form-label">نام</label>
+                                <input asp-for="FirstName" class="form-control" />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="LastName" class="form-label">نام خانوادگی</label>
+                                <input asp-for="LastName" class="form-control" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
                         </div>
 
-                        <div class="d-flex justify-content-between mt-4 pt-3 border-top">
-                            <a asp-action="Dashboard" class="btn btn-secondary">
-                                <i class="bi bi-arrow-right me-1"></i> بازگشت
-                            </a>
-                            <button type="submit" class="btn btn-primary">
-                                <i class="bi bi-save me-1"></i> ذخیره تغییرات
-                            </button>
+                        <div class="mb-3">
+                            <label asp-for="PhoneNumber" class="form-label">شماره تماس</label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                         </div>
-                    </form>
+
+                        <div class="mb-3">
+                            <label asp-for="Address" class="form-label">آدرس</label>
+                            <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="State" class="form-label">استان</label>
+                                <select id="stateSelect" asp-for="State" class="form-select">
+                                    <option value="">-- انتخاب استان --</option>
+                                    @foreach (var province in provinces)
+                                    {
+                                        <option value="@province.Name" selected="@(province.Name == Model.State)">@province.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="State" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="City" class="form-label">شهر</label>
+                                <select id="citySelect" asp-for="City" class="form-select">
+                                    <option value="">-- ابتدا استان را انتخاب کنید --</option>
+                                    @foreach (var city in cities)
+                                    {
+                                        <option value="@city.Name" selected="@(city.Name == Model.City)">@city.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- دکمه‌های ذخیره -->
+                <div class="mt-4 text-end">
+                    <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+                    <a asp-action="Dashboard" class="btn btn-secondary">بازگشت</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- بخش مهارت‌ها -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4>مهارت‌های من</h4>
+        </div>
+        <div class="card-body">
+            <!-- لیست مهارت‌های موجود -->
+            <div class="mb-4">
+                <h5>مهارت‌های فعلی</h5>
+                <div class="d-flex flex-wrap">
+                    @if (expertSkills.Any())
+                    {
+                        foreach (var skill in expertSkills)
+                        {
+                            <div class="border rounded p-2 m-1 d-flex align-items-center">
+                                <span>@skill.Name</span>
+                                <button type="button" class="btn btn-sm btn-link text-danger ms-2 remove-skill"
+                                        data-skill-id="@skill.SubHomeServiceId">
+                                    <i class="bi bi-x"></i>
+                                </button>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="alert alert-info w-100">هنوز مهارتی ثبت نشده است.</div>
+                    }
+                </div>
+            </div>
+
+            <!-- فرم افزودن مهارت جدید -->
+            <div>
+                <h5>افزودن مهارت جدید</h5>
+                <div class="row">
+                    <div class="col-md-8">
+                        <select id="skillSelect" class="form-select">
+                            <option value="">-- انتخاب مهارت --</option>
+                            @foreach (var service in subHomeServices.Where(s => s.IsActive))
+                            {
+                                <option value="@service.Id">@service.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="addSkillBtn" type="button" class="btn btn-success w-100">افزودن مهارت</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-@section Styles {
-    <style>
-        .card {
-            border-radius: 10px;
-            overflow: hidden;
-        }
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // بارگذاری شهرها با تغییر استان
+            $("#stateSelect").change(function() {
+                var provinceName = $(this).val();
+                if (provinceName) {
+                    $.ajax({
+                        url: '@Url.Action("GetCitiesByProvinceName", "Expert")',
+                        type: 'GET',
+                        data: { provinceName: provinceName },
+                        success: function(cities) {
+                            console.log("Cities received:", cities);
+                            var citySelect = $("#citySelect");
+                            citySelect.empty();
+                            citySelect.append('<option value="">-- انتخاب شهر --</option>');
+                            $.each(cities, function(i, city) {
+                                citySelect.append($('<option></option>').val(city.name).text(city.name));
+                            });
+                        },
+                        error: function(xhr, status, error) {
+                            console.error("Error loading cities:", error);
+                            alert("خطا در بارگذاری شهرها");
+                        }
+                    });
+                }
+            });
 
-        .skill-item {
-            background-color: #e9ecef;
-            transition: all 0.2s ease;
-        }
+            // افزودن مهارت
+            $("#addSkillBtn").click(function() {
+                var skillId = $("#skillSelect").val();
+                if (!skillId) {
+                    alert("لطفاً یک مهارت انتخاب کنید");
+                    return;
+                }
 
-            .skill-item:hover {
-                background-color: #dee2e6;
-            }
+                $.ajax({
+                    url: '@Url.Action("AddSkill", "Expert")',
+                    type: 'POST',
+                    data: { subHomeServiceId: skillId },
+                    success: function(result) {
+                        console.log("Add skill result:", result);
+                        if (result.success) {
+                            alert(result.message);
+                            location.reload();
+                        } else {
+                            alert(result.message || "خطا در افزودن مهارت");
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error adding skill:", error);
+                        alert("خطا در ارتباط با سرور");
+                    }
+                });
+            });
 
-        .btn-link.text-danger {
-            padding: 0;
-            margin-right: 5px;
-        }
-
-        .form-control:focus,
-        .form-select:focus {
-            border-color: #1e3a8a;
-            box-shadow: 0 0 0 0.25rem rgba(30, 58, 138, 0.25);
-        }
-    </style>
+            $(".remove-skill").click(function() {
+                if (confirm("آیا از حذف این مهارت اطمینان دارید؟")) {
+                    var skillId = $(this).data("skill-id");
+                    $.ajax({
+                        url: '@Url.Action("RemoveSkill", "Expert")',
+                        type: 'POST',
+                        data: { subHomeServiceId: skillId },
+                        success: function(result) {
+                            console.log("Remove skill result:", result);
+                            if (result.success) {
+                                alert(result.message);
+                                location.reload();
+                            } else {
+                                alert(result.message || "خطا در حذف مهارت");
+                            }
+                        },
+                        error: function(xhr, status, error) {
+                            console.error("Error removing skill:", error);
+                            alert("خطا در ارتباط با سرور");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 }

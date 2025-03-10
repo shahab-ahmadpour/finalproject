@@ -51,3 +51,4 @@ D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.AppServices\obj\Debug
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.AppServices\obj\Debug\net8.0\refint\HomeService.Domain.AppServices.dll
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.AppServices\obj\Debug\net8.0\HomeService.Domain.AppServices.pdb
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.AppServices\obj\Debug\net8.0\ref\HomeService.Domain.AppServices.dll
+D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.AppServices\obj\Debug\net8.0\HomeService.Domain.AppServices.sourcelink.json
