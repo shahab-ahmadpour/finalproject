@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Serilog;
+using App.Domain.Core.DTO.City;
 
 namespace HomeService.Domain.Services.LocationServices
 {
@@ -33,10 +34,16 @@ namespace HomeService.Domain.Services.LocationServices
             return await _locationRepository.GetAllCitiesAsync(cancellationToken);
         }
 
-        public async Task<List<City>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
+        public async Task<List<CityDto>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
         {
             _logger.Information("Service: Fetching cities for ProvinceId: {ProvinceId}", provinceId);
             return await _locationRepository.GetCitiesByProvinceIdAsync(provinceId, cancellationToken);
+        }
+
+        public async Task<List<CityDto>> GetCitiesByProvinceNameAsync(string provinceName, CancellationToken cancellationToken)
+        {
+            _logger.Information("Service: Fetching cities for ProvinceName: {ProvinceName}", provinceName);
+            return await _locationRepository.GetCitiesByProvinceNameAsync(provinceName, cancellationToken);
         }
     }
 }

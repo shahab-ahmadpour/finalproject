@@ -1,5 +1,6 @@
 ﻿@using App.Domain.Core.Locations
 @using App.Domain.Core.Skills.Entities
+@using System.Linq
 @model App.Domain.Core.DTO.Users.Experts.EditExpertDto
 @{
     ViewData["Title"] = "ویرایش پروفایل کارشناس";
@@ -7,7 +8,7 @@
 
     var provinces = ViewBag.Provinces as List<Province> ?? new List<Province>();
     var cities = ViewBag.Cities as List<City> ?? new List<City>();
-    var expertSkills = ViewBag.ExpertSkills as List<Skill> ?? new List<Skill>();
+    var expertSkills = ViewBag.ExpertSkills as List<App.Domain.Core.DTO.Skills.SkillDto> ?? new List<App.Domain.Core.DTO.Skills.SkillDto>();
     var subHomeServices = ViewBag.SubHomeServices as List<App.Domain.Core.DTO.SubHomeServices.SubHomeServiceListItemDto> ?? new List<App.Domain.Core.DTO.SubHomeServices.SubHomeServiceListItemDto>();
 }
 
@@ -133,6 +134,7 @@
             <div class="mb-4">
                 <h5>مهارت‌های فعلی</h5>
                 <div class="d-flex flex-wrap">
+                    <p>تعداد مهارت‌ها: @(expertSkills.Count)</p>
                     @if (expertSkills.Any())
                     {
                         foreach (var skill in expertSkills)
@@ -153,7 +155,6 @@
                 </div>
             </div>
 
-            <!-- فرم افزودن مهارت جدید -->
             <div>
                 <h5>افزودن مهارت جدید</h5>
                 <div class="row">
@@ -179,57 +180,57 @@
     <script>
         $(document).ready(function() {
             // بارگذاری شهرها با تغییر استان
-            $("#stateSelect").change(function() {
-                var provinceName = $(this).val();
-                if (provinceName) {
-                    $.ajax({
-                        url: '@Url.Action("GetCitiesByProvinceName", "Expert")',
-                        type: 'GET',
-                        data: { provinceName: provinceName },
-                        success: function(cities) {
-                            console.log("Cities received:", cities);
-                            var citySelect = $("#citySelect");
-                            citySelect.empty();
-                            citySelect.append('<option value="">-- انتخاب شهر --</option>');
-                            $.each(cities, function(i, city) {
-                                citySelect.append($('<option></option>').val(city.name).text(city.name));
-                            });
-                        },
-                        error: function(xhr, status, error) {
-                            console.error("Error loading cities:", error);
-                            alert("خطا در بارگذاری شهرها");
-                        }
-                    });
-                }
-            });
-
-            // افزودن مهارت
-            $("#addSkillBtn").click(function() {
-                var skillId = $("#skillSelect").val();
-                if (!skillId) {
-                    alert("لطفاً یک مهارت انتخاب کنید");
-                    return;
-                }
-
+        $("#stateSelect").change(function() {
+            var provinceName = $(this).val();
+            if (provinceName) {
                 $.ajax({
-                    url: '@Url.Action("AddSkill", "Expert")',
-                    type: 'POST',
-                    data: { subHomeServiceId: skillId },
-                    success: function(result) {
-                        console.log("Add skill result:", result);
-                        if (result.success) {
-                            alert(result.message);
-                            location.reload();
-                        } else {
-                            alert(result.message || "خطا در افزودن مهارت");
-                        }
+                    url: '/Expert/GetCitiesByProvinceName',
+                    type: 'GET',
+                    data: { provinceName: provinceName },
+                    success: function(cities) {
+                        var citySelect = $("#citySelect");
+                        citySelect.empty();
+                        citySelect.append('<option value="">-- انتخاب شهر --</option>');
+                        $.each(cities, function(i, city) {
+                            citySelect.append($('<option></option>').val(city.name).text(city.name));
+                        });
                     },
                     error: function(xhr, status, error) {
-                        console.error("Error adding skill:", error);
-                        alert("خطا در ارتباط با سرور");
+                        console.error("Error loading cities:", error);
+                        alert("خطا در بارگذاری شهرها");
                     }
                 });
+            } else {
+                $("#citySelect").empty();
+                $("#citySelect").append('<option value="">-- ابتدا استان را انتخاب کنید --</option>');
+            }
+        });
+
+        $("#addSkillBtn").click(function() {
+            var skillId = $("#skillSelect").val();
+            if (!skillId) {
+                alert("لطفاً یک مهارت انتخاب کنید");
+                return;
+            }
+
+            $.ajax({
+                url: '/Expert/AddSkill',
+                type: 'POST',
+                data: { subHomeServiceId: skillId },
+                success: function(result) {
+                    if (result.success) {
+                        alert(result.message);
+                        location.reload();
+                    } else {
+                        alert(result.message || "خطا در افزودن مهارت");
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error adding skill:", error);
+                    alert("خطا در ارتباط با سرور");
+                }
             });
+        });
 
             $(".remove-skill").click(function() {
                 if (confirm("آیا از حذف این مهارت اطمینان دارید؟")) {

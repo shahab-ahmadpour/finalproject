@@ -15,7 +15,7 @@
 
 <div class="container py-5">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             @if (TempData["SuccessMessage"] != null)
             {
                 <div class="alert alert-success text-center mb-4" role="alert">
@@ -23,42 +23,103 @@
                 </div>
             }
 
-            <div class="card shadow-sm p-4">
-                <div class="card-body text-center">
-                    <h3 class="mb-3">خوش آمدید، @Model.FirstName @Model.LastName</h3>
-                    <p class="text-muted">از اینجا می‌توانید سفارشات و پیشنهادات خود را مدیریت کنید</p>
-
-                    <div class="row my-4">
-                        <div class="col-6 col-md-4">
-                            <div class="stat-box">
-                                <p class="mb-1">سفارش‌های فعال</p>
-                                <h5>@activeOrdersCount</h5>
+            <!-- کارت اطلاعات کاربر (مشابه مشتری) -->
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-body p-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-center">
+                            <div class="avatar-container mb-3 mb-md-0">
+                                <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default-avatar.png" : Model.ProfilePicture)"
+                                     class="rounded-circle img-fluid" alt="تصویر پروفایل"
+                                     style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #1e3a8a;">
                             </div>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <div class="stat-box">
-                                <p class="mb-1">پیشنهادات در انتظار</p>
-                                <h5>@pendingProposalsCount</h5>
+                        <div class="col-md-6">
+                            <h3 class="mb-1">@Model.FirstName @Model.LastName</h3>
+                            <p class="text-muted mb-2">کارشناس</p> <!-- یا هر متن دلخواه -->
+                            <p><i class="bi bi-geo-alt-fill text-primary"></i> @(string.IsNullOrEmpty(Model.City) ? "شهر ثبت نشده" : $"{Model.City}، {Model.State}")</p>
+                            <div class="d-flex align-items-center">
+                                <a href="@Url.Action("EditProfile", "Expert")" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil-square"></i> ویرایش پروفایل
+                                </a>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <div class="stat-box">
-                                <p class="mb-1">پیشنهادات پذیرفته شده</p>
-                                <h5>@acceptedProposalsCount</h5>
+                        <div class="col-md-3 text-center">
+                            <div class="balance-container p-3 rounded" style="background-color: #e8f5e9;">
+                                <p class="mb-1">موجودی حساب</p>
+                                <h4 class="text-success mb-0">@Model.AccountBalance.ToString("N0") تومان</h4>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="balance-box mb-4">
-                        <p class="mb-1 fw-bold">موجودی حساب</p>
-                        <h4 class="text-success">@Model.AccountBalance.ToString("N0") تومان</h4>
+            <!-- کارت‌های عملیاتی (مشابه مشتری) -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-list-task"></i>
+                            </div>
+                            <h4>درخواست‌های قابل دسترس</h4>
+                            <p class="text-muted">درخواست‌های موجود را مشاهده و پیشنهاد دهید.</p>
+                            <a href="@Url.Action("AvailableRequests", "Expert")" class="btn btn-primary mt-2">
+                                مشاهده درخواست‌ها <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="d-grid gap-2">
-                        <a href="@Url.Action("AvailableRequests", "Expert")" class="btn btn-primary">مشاهده درخواست‌های قابل دسترس</a>
-                        <a href="@Url.Action("EditProfile", "Expert")" class="btn btn-outline-secondary">ویرایش مشخصات</a>
-                        <a href="@Url.Action("Proposals", "Expert")" class="btn btn-outline-secondary">مشاهده پیشنهادات من</a>
-                        <a href="@Url.Action("Orders", "Expert")" class="btn btn-outline-secondary">مشاهده سفارش‌های من</a>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-card-checklist"></i>
+                            </div>
+                            <h4>پیشنهادات من</h4>
+                            <p class="text-muted">پیشنهادات ارسالی خود را مدیریت کنید.</p>
+                            <a href="@Url.Action("Proposals", "Expert")" class="btn btn-primary mt-2">
+                                مشاهده پیشنهادات <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 dashboard-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-circle mb-3">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+                            <h4>سفارش‌های من</h4>
+                            <p class="text-muted">سفارش‌های فعال و گذشته خود را ببینید.</p>
+                            <a href="@Url.Action("Orders", "Expert")" class="btn btn-primary mt-2">
+                                مشاهده سفارش‌ها <i class="bi bi-arrow-left ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- نمایش آمار (اضافه‌شده به سبک مشتری) -->
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="stat-box p-3 text-center rounded shadow-sm">
+                        <p class="mb-1">سفارش‌های فعال</p>
+                        <h5>@activeOrdersCount</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-box p-3 text-center rounded shadow-sm">
+                        <p class="mb-1">پیشنهادات در انتظار</p>
+                        <h5>@pendingProposalsCount</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-box p-3 text-center rounded shadow-sm">
+                        <p class="mb-1">پیشنهادات پذیرفته‌شده</p>
+                        <h5>@acceptedProposalsCount</h5>
                     </div>
                 </div>
             </div>
@@ -66,26 +127,54 @@
     </div>
 </div>
 
-<style>
-    .stat-box {
-        background: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+@section Styles {
+    <style>
+        .dashboard-card {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
 
-    .alert-success {
-        background-color: #d4edda;
-        color: #155724;
-        border-color: #c3e6cb;
-        padding: 10px;
-        border-radius: 5px;
-    }
+            .dashboard-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+            }
 
-    .balance-box {
-        background: #e8f5e9;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-</style>
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            background-color: #e5efff;
+            color: #1e3a8a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 1.8rem;
+        }
+
+        .btn-primary {
+            background-color: #1e3a8a;
+            border-color: #1e3a8a;
+        }
+
+            .btn-primary:hover {
+                background-color: #172b6e;
+                border-color: #172b6e;
+            }
+
+        .stat-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+            border-color: #c3e6cb;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+}

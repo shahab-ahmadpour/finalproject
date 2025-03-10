@@ -62,24 +62,26 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.Repositories.Skills
         public async Task<List<Skill>> GetSkillsByExpertIdAsync(int expertId, CancellationToken cancellationToken)
         {
             _logger.Information("Repository: Fetching skills for ExpertId: {ExpertId}", expertId);
-
             try
             {
                 var expertSkills = await _dbContext.ExpertSkills
                     .Include(es => es.Skill)
                     .ThenInclude(s => s.SubHomeService)
                     .Where(es => es.ExpertId == expertId)
-                    .Select(es => es.Skill)
                     .ToListAsync(cancellationToken);
 
-                if (expertSkills == null || !expertSkills.Any())
+                _logger.Information("ExpertSkills raw count: {Count}", expertSkills.Count);
+
+                var skills = expertSkills.Select(es => es.Skill).ToList();
+
+                if (skills == null || !skills.Any())
                 {
                     _logger.Warning("Repository: No skills found for ExpertId: {ExpertId}", expertId);
                     return new List<Skill>();
                 }
 
-                _logger.Information("Repository: Found {Count} skills for ExpertId: {ExpertId}", expertSkills.Count, expertId);
-                return expertSkills;
+                _logger.Information("Repository: Found {Count} skills for ExpertId: {ExpertId}", skills.Count, expertId);
+                return skills;
             }
             catch (Exception ex)
             {

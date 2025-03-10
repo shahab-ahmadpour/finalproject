@@ -1,76 +1,156 @@
-﻿@model App.Domain.Core.DTO.Users.Customers.EditCustomerDto
-
+﻿@using App.Domain.Core.DTO.City
+@using App.Domain.Core.Locations
+@using System.Linq
+@model App.Domain.Core.DTO.Users.Customers.EditCustomerDto
 @{
+    ViewData["Title"] = "ویرایش پروفایل مشتری";
     Layout = "~/Views/Shared/_CustomerLayout.cshtml";
-    ViewData["Title"] = "ویرایش پروفایل";
+
+    var provinces = ViewBag.Provinces as List<Province> ?? new List<Province>();
+    var cities = ViewBag.Cities as List<CityDto> ?? new List<CityDto>();
 }
 
-<div class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card shadow-sm p-4">
-                <div class="card-body">
-                    <div class="text-center mb-4">
-                        <img src="@(string.IsNullOrEmpty(Model.ProfilePicture) ? "/images/default.png" : Model.ProfilePicture)"
-                             alt="Profile Picture" class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+<div class="container py-4">
+    <!-- بخش نمایش پیام‌ها -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var item in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@item.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-header">
+            <h4>ویرایش پروفایل</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="AppUserId" />
+                <input type="hidden" asp-for="ProfilePicture" />
+
+                <!-- اطلاعات شخصی -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center mb-3">
+                            @if (!string.IsNullOrEmpty(Model.ProfilePicture))
+                            {
+                                <img src="@Model.ProfilePicture" alt="profile" class="img-thumbnail" style="max-width: 200px;" />
+                            }
+                            else
+                            {
+                                <img src="/images/default-avatar.png" alt="profile" class="img-thumbnail" style="max-width: 200px;" />
+                            }
+                            <div class="mt-2">
+                                <input type="file" class="form-control" name="ProfilePictureFile" />
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-center mb-4">ویرایش مشخصات</h3>
-                    <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
-                        <div class="mb-3">
-                            <label class="form-label">نام</label>
-                            <input asp-for="FirstName" class="form-control" value="@Model.FirstName" />
-                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="FirstName" class="form-label">نام</label>
+                                <input asp-for="FirstName" class="form-control" />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="LastName" class="form-label">نام خانوادگی</label>
+                                <input asp-for="LastName" class="form-control" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
                         </div>
+
                         <div class="mb-3">
-                            <label class="form-label">نام خانوادگی</label>
-                            <input asp-for="LastName" class="form-control" value="@Model.LastName" />
-                            <span asp-validation-for="LastName" class="text-danger"></span>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">شماره تلفن</label>
-                            <input asp-for="PhoneNumber" class="form-control" value="@Model.PhoneNumber" />
+                            <label asp-for="PhoneNumber" class="form-label">شماره تماس</label>
+                            <input asp-for="PhoneNumber" class="form-control" />
                             <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                         </div>
+
                         <div class="mb-3">
-                            <label class="form-label">آدرس</label>
-                            <input asp-for="Address" class="form-control" value="@Model.Address" />
+                            <label asp-for="Address" class="form-label">آدرس</label>
+                            <textarea asp-for="Address" class="form-control" rows="3"></textarea>
                             <span asp-validation-for="Address" class="text-danger"></span>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">شهر</label>
-                            <input asp-for="City" class="form-control" value="@Model.City" />
-                            <span asp-validation-for="City" class="text-danger"></span>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="State" class="form-label">استان</label>
+                                <select id="stateSelect" asp-for="State" class="form-select">
+                                    <option value="">-- انتخاب استان --</option>
+                                    @foreach (var province in provinces)
+                                    {
+                                        <option value="@province.Name" selected="@(province.Name == Model.State)">@province.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="State" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="City" class="form-label">شهر</label>
+                                <select id="citySelect" asp-for="City" class="form-select">
+                                    <option value="">-- ابتدا استان را انتخاب کنید --</option>
+                                    @foreach (var city in cities)
+                                    {
+                                        <option value="@city.Name" selected="@(city.Name == Model.City)">@city.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">استان</label>
-                            <input asp-for="State" class="form-control" value="@Model.State" />
-                            <span asp-validation-for="State" class="text-danger"></span>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">عکس پروفایل</label>
-                            <input asp-for="ProfilePictureFile" type="file" class="form-control" accept="image/*" />
-                            <span asp-validation-for="ProfilePictureFile" class="text-danger"></span>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
-                            <a href="@Url.Action("Dashboard")" class="btn btn-secondary">بازگشت</a>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-            </div>
+
+                <!-- دکمه‌های ذخیره -->
+                <div class="mt-4 text-end">
+                    <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+                    <a asp-action="Dashboard" class="btn btn-secondary">بازگشت</a>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function() {
+            // بارگذاری شهرها با تغییر استان
+            $("#stateSelect").change(function() {
+                var provinceName = $(this).val();
+                if (provinceName) {
+                    $.ajax({
+                        url: '/Customer/GetCitiesByProvinceName', // تغییر به CustomerController
+                        type: 'GET',
+                        data: { provinceName: provinceName },
+                        success: function(cities) {
+                            var citySelect = $("#citySelect");
+                            citySelect.empty();
+                            citySelect.append('<option value="">-- انتخاب شهر --</option>');
+                            $.each(cities, function(i, city) {
+                                citySelect.append($('<option></option>').val(city.name).text(city.name));
+                            });
+                        },
+                        error: function(xhr, status, error) {
+                            console.error("Error loading cities:", error);
+                            alert("خطا در بارگذاری شهرها");
+                        }
+                    });
+                } else {
+                    $("#citySelect").empty();
+                    $("#citySelect").append('<option value="">-- ابتدا استان را انتخاب کنید --</option>');
+                }
+            });
+        });
+    </script>
 }
-
-<style>
-    .stat-box {
-        background: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-</style>

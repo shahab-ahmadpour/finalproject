@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Serilog;
 using Microsoft.EntityFrameworkCore;
+using App.Domain.Core.DTO.City;
 
 namespace App.Infrastructure.DbAccess.Repository.Ef.Repositories.Locations
 {
@@ -50,22 +51,35 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.Repositories.Locations
             }
         }
 
-        public async Task<List<City>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
+
+        public async Task<List<CityDto>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
         {
             _logger.Information("Repository: Fetching cities for ProvinceId: {ProvinceId}", provinceId);
-            try
-            {
-                var cities = await _dbContext.Cities
-                    .Where(c => c.ProvinceId == provinceId)
-                    .ToListAsync(cancellationToken);
-                _logger.Information("Repository: Found {Count} cities for ProvinceId: {ProvinceId}", cities.Count, provinceId);
-                return cities;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Repository: Error fetching cities for ProvinceId: {ProvinceId}", provinceId);
-                throw;
-            }
+            var cities = await _dbContext.Cities
+                .Where(c => c.ProvinceId == provinceId)
+                .Select(c => new CityDto
+                {
+                    Name = c.Name
+                })
+                .ToListAsync(cancellationToken);
+
+            _logger.Information("Found {Count} cities for ProvinceId: {ProvinceId}", cities.Count, provinceId);
+            return cities;
+        }
+
+        public async Task<List<CityDto>> GetCitiesByProvinceNameAsync(string provinceName, CancellationToken cancellationToken)
+        {
+            _logger.Information("Repository: Fetching cities for ProvinceName: {ProvinceName}", provinceName);
+            var cities = await _dbContext.Cities
+                .Where(c => c.Province.Name == provinceName)
+                .Select(c => new CityDto
+                {
+                    Name = c.Name
+                })
+                .ToListAsync(cancellationToken);
+
+            _logger.Information("Found {Count} cities for ProvinceName: {ProvinceName}", cities.Count, provinceName);
+            return cities;
         }
     }
 }

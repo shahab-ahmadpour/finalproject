@@ -51,3 +51,4 @@ D:\MyFinalProject\src\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Re
 D:\MyFinalProject\src\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\refint\App.Infrastructure.DbAccess.Repository.Ef.dll
 D:\MyFinalProject\src\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
 D:\MyFinalProject\src\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\ref\App.Infrastructure.DbAccess.Repository.Ef.dll
+D:\MyFinalProject\src\2-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.sourcelink.json

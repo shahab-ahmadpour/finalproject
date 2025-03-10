@@ -1,4 +1,5 @@
-﻿using App.Domain.Core.DTO.Orders;
+﻿using App.Domain.Core.DTO.City;
+using App.Domain.Core.DTO.Orders;
 using App.Domain.Core.DTO.Proposals;
 using App.Domain.Core.DTO.Users.Experts;
 using App.Domain.Core.Enums;
@@ -110,6 +111,8 @@ namespace App.Endpoints.MVC.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
+            _logger.Information("EditProfile called with ExpertId: {ExpertId}", expertId.Value);
+
             var editDto = await _expertAppService.GetEditExpertProfileAsync(expertId.Value, cancellationToken);
             if (editDto == null)
             {
@@ -119,9 +122,14 @@ namespace App.Endpoints.MVC.Controllers
 
             ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
             ViewBag.Cities = string.IsNullOrEmpty(editDto.State)
-                ? new List<City>()
+                ? new List<CityDto>()
                 : await _locationAppService.GetCitiesByProvinceNameAsync(editDto.State, cancellationToken);
-            ViewBag.ExpertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
+
+            var skills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
+            _logger.Information("Skills loaded for ExpertId: {ExpertId}, Count: {Count}, Details: {@Skills}",
+                expertId.Value, skills?.Count ?? 0, skills);
+            ViewBag.ExpertSkills = skills;
+
             ViewBag.SubHomeServices = await _subHomeServiceAppService.GetAllAsync(cancellationToken);
 
             return View(editDto);
@@ -136,19 +144,19 @@ namespace App.Endpoints.MVC.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            // بررسی وضعیت مدل به صورت دقیق‌تر
+            if (model.ProfilePictureFile == null || model.ProfilePictureFile.Length == 0)
+            {
+                ModelState.Remove("ProfilePictureFile");
+            }
+
             if (!ModelState.IsValid)
             {
-                _logger.Warning("ModelState is invalid for ExpertId: {ExpertId}", expertId.Value);
-                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
-                {
-                    _logger.Warning("Validation error: {Error}", error.ErrorMessage);
-                }
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                _logger.Error("ModelState invalid. Errors: {Errors}", string.Join(", ", errors));
 
-                // بارگذاری داده‌های مورد نیاز برای نمایش فرم
                 ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
                 ViewBag.Cities = string.IsNullOrEmpty(model.State)
-                    ? new List<City>()
+                    ? new List<CityDto>()
                     : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
                 ViewBag.ExpertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
                 ViewBag.SubHomeServices = await _subHomeServiceAppService.GetAllAsync(cancellationToken);
@@ -160,42 +168,37 @@ namespace App.Endpoints.MVC.Controllers
             {
                 if (model.ProfilePictureFile != null && model.ProfilePictureFile.Length > 0)
                 {
-                    _logger.Information("Uploading new profile picture for ExpertId: {ExpertId}", expertId.Value);
                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProfilePictureFile.FileName);
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
 
-                    var directory = Path.GetDirectoryName(filePath);
-                    if (!Directory.Exists(directory))
+                    if (!Directory.Exists(uploadsFolder))
                     {
-                        Directory.CreateDirectory(directory);
+                        Directory.CreateDirectory(uploadsFolder);
                     }
 
+                    var filePath = Path.Combine(uploadsFolder, fileName);
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         await model.ProfilePictureFile.CopyToAsync(stream);
                     }
+
                     model.ProfilePicture = $"/uploads/{fileName}";
-                    _logger.Information("Profile picture uploaded: {FilePath}", model.ProfilePicture);
                 }
-                else if (string.IsNullOrEmpty(model.ProfilePicture))
+                else
                 {
                     var currentExpert = await _expertAppService.GetByIdAsync(expertId.Value, cancellationToken);
-                    model.ProfilePicture = currentExpert?.ProfilePicture;
-                    _logger.Information("Using existing profile picture: {ProfilePicture}", model.ProfilePicture);
+                    model.ProfilePicture = currentExpert?.ProfilePicture ?? "default.png";
                 }
 
-                _logger.Information("Calling UpdateExpertProfileAsync for ExpertId: {ExpertId}", expertId.Value);
                 var result = await _expertAppService.UpdateExpertProfileAsync(model, cancellationToken);
 
                 if (result)
                 {
-                    _logger.Information("Profile updated successfully for ExpertId: {ExpertId}", expertId.Value);
                     TempData["SuccessMessage"] = "پروفایل شما با موفقیت به‌روزرسانی شد!";
                     return RedirectToAction("Dashboard");
                 }
                 else
                 {
-                    _logger.Warning("Failed to update profile for ExpertId: {ExpertId}", expertId.Value);
                     TempData["ErrorMessage"] = "خطا در به‌روزرسانی پروفایل. لطفاً دوباره تلاش کنید.";
                 }
             }
@@ -207,7 +210,7 @@ namespace App.Endpoints.MVC.Controllers
 
             ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
             ViewBag.Cities = string.IsNullOrEmpty(model.State)
-                ? new List<City>()
+                ? new List<CityDto>() // تغییر به CityDto
                 : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
             ViewBag.ExpertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
             ViewBag.SubHomeServices = await _subHomeServiceAppService.GetAllAsync(cancellationToken);
@@ -481,16 +484,19 @@ namespace App.Endpoints.MVC.Controllers
                 _logger.Information("Fetching cities for Province: {ProvinceName}", provinceName);
                 if (string.IsNullOrEmpty(provinceName))
                 {
-                    return Json(new List<object>());
+                    _logger.Warning("ProvinceName is empty, returning empty list");
+                    return Json(new List<CityDto>());
                 }
 
                 var cities = await _locationAppService.GetCitiesByProvinceNameAsync(provinceName, cancellationToken);
+                _logger.Information("Cities loaded for Province: {ProvinceName}, Count: {Count}, Details: {@Cities}",
+                    provinceName, cities.Count, cities);
                 return Json(cities);
             }
             catch (Exception ex)
             {
                 _logger.Error(ex, "Error fetching cities for Province: {ProvinceName}", provinceName);
-                return Json(new List<object>());
+                throw;
             }
         }
 
@@ -508,29 +514,23 @@ namespace App.Endpoints.MVC.Controllers
                 var subHomeService = await _subHomeServiceAppService.GetAsync(subHomeServiceId, cancellationToken);
                 if (subHomeService == null)
                 {
-                    _logger.Warning("SubHomeService not found: {SubHomeServiceId}", subHomeServiceId);
                     return Json(new { success = false, message = "سرویس مورد نظر یافت نشد." });
                 }
 
                 var expertSkills = await _skillAppService.GetSkillsByExpertIdAsync(expertId.Value, cancellationToken);
-                if (expertSkills.Any(s => s.SubHomeServiceId == subHomeServiceId))
+                if (expertSkills != null && expertSkills.Any(s => s.SubHomeServiceId == subHomeServiceId))
                 {
-                    _logger.Warning("Skill already exists for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
-                        expertId.Value, subHomeServiceId);
                     return Json(new { success = false, message = "این مهارت قبلاً به لیست مهارت‌های شما اضافه شده است." });
                 }
 
                 var result = await _expertAppService.AddSkillAsync(expertId.Value, subHomeServiceId, cancellationToken);
+
                 if (result)
                 {
-                    _logger.Information("Skill added successfully for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
-                        expertId.Value, subHomeServiceId);
                     return Json(new { success = true, message = "مهارت با موفقیت اضافه شد." });
                 }
                 else
                 {
-                    _logger.Warning("Failed to add skill for Expert: {ExpertId}, SubHomeService: {SubHomeServiceId}",
-                        expertId.Value, subHomeServiceId);
                     return Json(new { success = false, message = "خطا در افزودن مهارت." });
                 }
             }

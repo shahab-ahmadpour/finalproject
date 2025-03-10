@@ -1,4 +1,5 @@
 ﻿using App.Domain.Core.DTO.Categories;
+using App.Domain.Core.DTO.City;
 using App.Domain.Core.DTO.HomeServices;
 using App.Domain.Core.DTO.Proposals;
 using App.Domain.Core.DTO.Requests;
@@ -7,6 +8,7 @@ using App.Domain.Core.DTO.SubHomeServices;
 using App.Domain.Core.DTO.Transactions;
 using App.Domain.Core.DTO.Users.Customers;
 using App.Domain.Core.Enums;
+using App.Domain.Core.Locations.Interfaces.IAppService;
 using App.Domain.Core.Services.Entities;
 using App.Domain.Core.Services.Interfaces.IAppService;
 using App.Domain.Core.Transactions.Interfaces.IAppService;
@@ -35,6 +37,7 @@ namespace App.Endpoints.MVC.Controllers
         private readonly IUserAppService _userAppService;
         private readonly IExpertAppService _expertAppService;
         private readonly IReviewAppService _reviewAppService;
+        private readonly ILocationAppService _locationAppService;
         private readonly Serilog.ILogger _logger;
 
         public CustomerController(
@@ -49,6 +52,7 @@ namespace App.Endpoints.MVC.Controllers
             IUserAppService userAppService,
             IExpertAppService expertAppService,
             IReviewAppService reviewAppService,
+            ILocationAppService locationAppService,
             Serilog.ILogger logger)
         {
             _customerAppService = customerAppService;
@@ -62,6 +66,7 @@ namespace App.Endpoints.MVC.Controllers
             _userAppService = userAppService;
             _expertAppService = expertAppService;
             _reviewAppService = reviewAppService;
+            _locationAppService = locationAppService;
             _logger = logger;
         }
 
@@ -311,6 +316,11 @@ namespace App.Endpoints.MVC.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
+            ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
+            ViewBag.Cities = string.IsNullOrEmpty(editDto.State)
+                ? new List<CityDto>()
+                : await _locationAppService.GetCitiesByProvinceNameAsync(editDto.State, cancellationToken);
+
             ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
             return View(editDto);
         }
@@ -335,57 +345,105 @@ namespace App.Endpoints.MVC.Controllers
             _logger.Information("Received model for update: FirstName={FirstName}, LastName={LastName}, PhoneNumber={PhoneNumber}, ProfilePicture={ProfilePicture}",
                 model.FirstName, model.LastName, model.PhoneNumber, model.ProfilePicture);
 
-            ModelState.Clear();
+            if (model.ProfilePictureFile == null || model.ProfilePictureFile.Length == 0)
+            {
+                ModelState.Remove("ProfilePictureFile");
+            }
 
             if (!ModelState.IsValid)
             {
-                _logger.Warning("ModelState is invalid after clear for CustomerId: {CustomerId}", customerId.Value);
+                _logger.Warning("ModelState is invalid for CustomerId: {CustomerId}", customerId.Value);
                 foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
                 {
                     _logger.Warning("Validation error: {Error}", error.ErrorMessage);
                 }
+
+                ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
+                ViewBag.Cities = string.IsNullOrEmpty(model.State)
+                    ? new List<CityDto>()
+                    : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
+
                 ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
                 return View(model);
             }
 
-            if (model.ProfilePictureFile != null)
+            try
             {
-                try
+                if (model.ProfilePictureFile != null && model.ProfilePictureFile.Length > 0)
                 {
                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProfilePictureFile.FileName);
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+
+                    if (!Directory.Exists(uploadsFolder))
+                    {
+                        Directory.CreateDirectory(uploadsFolder);
+                    }
+
+                    var filePath = Path.Combine(uploadsFolder, fileName);
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         await model.ProfilePictureFile.CopyToAsync(stream);
                     }
+
                     model.ProfilePicture = $"/uploads/{fileName}";
                     _logger.Information("New profile picture uploaded: {ProfilePicture}", model.ProfilePicture);
                 }
-                catch (Exception ex)
+                else
                 {
-                    _logger.Error(ex, "Failed to upload profile picture for CustomerId: {CustomerId}", customerId.Value);
-                    ModelState.AddModelError("ProfilePictureFile", "خطا در آپلود عکس پروفایل.");
-                    ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
-                    return View(model);
+                    model.ProfilePicture = customerDto.ProfilePicture ?? "default.png";
+                    _logger.Information("No new profile picture, keeping existing: {ProfilePicture}", model.ProfilePicture);
+                }
+
+                var result = await _customerAppService.UpdateCustomerProfileAsync(model, cancellationToken);
+                if (result)
+                {
+                    _logger.Information("Profile updated successfully for CustomerId: {CustomerId}", customerId.Value);
+                    TempData["SuccessMessage"] = "پروفایل شما با موفقیت به‌روزرسانی شد!";
+                    return RedirectToAction("Dashboard");
+                }
+                else
+                {
+                    _logger.Warning("Failed to update profile for CustomerId: {CustomerId}", customerId.Value);
+                    TempData["ErrorMessage"] = "خطا در به‌روزرسانی پروفایل. لطفاً دوباره تلاش کنید.";
                 }
             }
-            else
+            catch (Exception ex)
             {
-                model.ProfilePicture = customerDto.ProfilePicture ?? model.ProfilePicture;
-                _logger.Information("No new profile picture, keeping existing: {ProfilePicture}", model.ProfilePicture);
+                _logger.Error(ex, "Error in EditProfile for CustomerId: {CustomerId}", customerId.Value);
+                TempData["ErrorMessage"] = "خطای سیستمی در به‌روزرسانی پروفایل.";
             }
 
-            var result = await _customerAppService.UpdateCustomerProfileAsync(model, cancellationToken);
-            if (result)
-            {
-                _logger.Information("Profile updated successfully for CustomerId: {CustomerId}", customerId.Value);
-                TempData["SuccessMessage"] = "پروفایل شما با موفقیت به‌روزرسانی شد!";
-                return RedirectToAction("Dashboard");
-            }
-            _logger.Warning("Failed to update profile for CustomerId: {CustomerId}", customerId.Value);
-            ModelState.AddModelError("", "خطا در به‌روزرسانی پروفایل. لطفاً دوباره تلاش کنید.");
+            ViewBag.Provinces = await _locationAppService.GetAllProvincesAsync(cancellationToken);
+            ViewBag.Cities = string.IsNullOrEmpty(model.State)
+                ? new List<CityDto>()
+                : await _locationAppService.GetCitiesByProvinceNameAsync(model.State, cancellationToken);
+
             ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
             return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetCitiesByProvinceName(string provinceName, CancellationToken cancellationToken)
+        {
+            try
+            {
+                _logger.Information("Fetching cities for Province: {ProvinceName}", provinceName);
+                if (string.IsNullOrEmpty(provinceName))
+                {
+                    _logger.Warning("ProvinceName is empty, returning empty list");
+                    return Json(new List<CityDto>());
+                }
+
+                var cities = await _locationAppService.GetCitiesByProvinceNameAsync(provinceName, cancellationToken);
+                _logger.Information("Cities loaded for Province: {ProvinceName}, Count: {Count}, Details: {@Cities}",
+                    provinceName, cities?.Count ?? 0, cities);
+                return Json(cities);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error fetching cities for Province: {ProvinceName}", provinceName);
+                return Json(new List<CityDto>());
+            }
         }
 
         [HttpGet]

@@ -51,3 +51,4 @@ D:\MyFinalProject\src\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\o
 D:\MyFinalProject\src\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
 D:\MyFinalProject\src\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.genruntimeconfig.cache
 D:\MyFinalProject\src\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\ref\App.Infrastructure.Db.SqlServer.Ef.dll
+D:\MyFinalProject\src\2-Infrastructure\Data\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.sourcelink.json

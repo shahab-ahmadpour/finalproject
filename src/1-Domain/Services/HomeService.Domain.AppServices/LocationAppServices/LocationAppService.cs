@@ -1,4 +1,5 @@
-﻿using App.Domain.Core.Locations;
+﻿using App.Domain.Core.DTO.City;
+using App.Domain.Core.Locations;
 using App.Domain.Core.Locations.Interfaces.IAppService;
 using App.Domain.Core.Locations.Interfaces.IService;
 using Serilog;
@@ -33,13 +34,13 @@ namespace App.Domain.AppServices.LocationAppServices
             return await _locationService.GetAllCitiesAsync(cancellationToken);
         }
 
-        public async Task<List<City>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
+        public async Task<List<CityDto>> GetCitiesByProvinceIdAsync(int provinceId, CancellationToken cancellationToken)
         {
             _logger.Information("AppService: Fetching cities for ProvinceId: {ProvinceId}", provinceId);
             return await _locationService.GetCitiesByProvinceIdAsync(provinceId, cancellationToken);
         }
 
-        public async Task<List<City>> GetCitiesByProvinceNameAsync(string provinceName, CancellationToken cancellationToken)
+        public async Task<List<CityDto>> GetCitiesByProvinceNameAsync(string provinceName, CancellationToken cancellationToken)
         {
             _logger.Information("AppService: Fetching cities for ProvinceName: {ProvinceName}", provinceName);
             try
@@ -49,9 +50,9 @@ namespace App.Domain.AppServices.LocationAppServices
                 if (province == null)
                 {
                     _logger.Warning("AppService: Province not found for Name: {ProvinceName}", provinceName);
-                    return new List<City>();
+                    return new List<CityDto>();
                 }
-                return await _locationService.GetCitiesByProvinceIdAsync(province.Id, cancellationToken);
+                return await GetCitiesByProvinceIdAsync(province.Id, cancellationToken);
             }
             catch (Exception ex)
             {

@@ -36,3 +36,4 @@ D:\MyFinalProject\src\1-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.
 D:\MyFinalProject\src\1-Domain\Core\App.Domain.Core\obj\Debug\net8.0\refint\App.Domain.Core.dll
 D:\MyFinalProject\src\1-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.pdb
 D:\MyFinalProject\src\1-Domain\Core\App.Domain.Core\obj\Debug\net8.0\ref\App.Domain.Core.dll
+D:\MyFinalProject\src\1-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.sourcelink.json

@@ -45,3 +45,4 @@ D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.Services\obj\Debug\ne
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.Services\obj\Debug\net8.0\refint\HomeService.Domain.Services.dll
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.Services\obj\Debug\net8.0\HomeService.Domain.Services.pdb
 D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.Services\obj\Debug\net8.0\ref\HomeService.Domain.Services.dll
+D:\MyFinalProject\src\1-Domain\Services\HomeService.Domain.Services\obj\Debug\net8.0\HomeService.Domain.Services.sourcelink.json
